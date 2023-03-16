@@ -10,12 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89a7bebd0bbf27a4ca54d1561e381236, type: 3}
-  m_Name: 1
+  m_Name: 3b
   m_EditorClassIdentifier: 
   sentences:
-  - text: Hello there!
+  - text: You've chosen choice 2!
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-  - text: This is a template for the visual novel!
-    speaker: {fileID: 11400000, guid: cfab85cd0782ca949a1254c2e086c717, type: 2}
   background: {fileID: 21300000, guid: 4ef62b32bb5c33f48bc9fab74d1e5df6, type: 3}
-  nextScene: {fileID: 11400000, guid: a016bf522e7f07b42b392de789258da9, type: 2}
+  nextScene: {fileID: 11400000, guid: daeb84e2184359349bcc945dfee28403, type: 2}

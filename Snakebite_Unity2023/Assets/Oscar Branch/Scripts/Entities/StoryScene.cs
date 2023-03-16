@@ -5,11 +5,11 @@ using UnityEngine;
 [System.Serializable]
 
 // THIS SCENE WILL CONTAIN A BACKGROUND, A LIST OF SENTENCES TO BE PLAYED, AND THE NEXT SCENE
-public class StoryScene : ScriptableObject
+public class StoryScene : GameScene
 {
     public List<Sentence> sentences;
     public Sprite background;
-    public StoryScene nextScene;
+    public GameScene nextScene;
 
     // For sentences, we create a separate structure, which also includes the speaker
     [System.Serializable]
@@ -18,4 +18,10 @@ public class StoryScene : ScriptableObject
         public string text;
         public Speaker speaker;
     }
+}
+
+//combine choosescene and storyscene into a new class called gamescene
+public class GameScene : ScriptableObject
+{
+
 }

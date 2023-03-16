@@ -13,13 +13,47 @@ public class BottomBarController : MonoBehaviour
     private int sentenceIndex = -1;
     private StoryScene currentScene;
     private State state = State.COMPLETED;
+    private Animator animator;
+    private bool isHidden = false;
 
     //will also create an enum state in order to understand whether we have displayed everything or not
     private enum State
     {
         PLAYING, COMPLETED
     }
-    
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+
+    }
+
+    //function to hide the bottombar via anim
+    public void Hide()
+    {
+        if (!isHidden)
+        {
+            animator.SetTrigger("Hide");
+            isHidden = true;
+        } 
+    }
+
+    //function to show the bottombar via anim
+    public void Show()
+    {
+        if (isHidden)
+        {
+            animator.SetTrigger("Show");
+            isHidden = false;
+        }
+    }
+
+    //function to clear the text, which will be used before appearance of the panel
+    public void ClearText()
+    {
+        barText.text = "";
+    }
+
     public void PlayScene(StoryScene scene)
     {
         currentScene = scene;

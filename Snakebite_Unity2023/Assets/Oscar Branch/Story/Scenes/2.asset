@@ -18,4 +18,4 @@ MonoBehaviour:
   - text: Welcome!
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
   background: {fileID: 21300000, guid: aff46fd273b2281468d16bcde230e806, type: 3}
-  nextScene: {fileID: 11400000, guid: daeb84e2184359349bcc945dfee28403, type: 2}
+  nextScene: {fileID: 11400000, guid: ee5af336b86e16f4b806c7d6d8135a24, type: 2}
