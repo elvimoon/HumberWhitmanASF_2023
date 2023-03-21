@@ -10,6 +10,7 @@ public class GameController : MonoBehaviour
     public BottomBarController bottomBar;
     public BackgroundController backgroundController;
     public ChooseController chooseController;
+    public AudioController audioController;
 
     private State state = State.IDLE;
 
@@ -25,6 +26,7 @@ public class GameController : MonoBehaviour
             StoryScene storyScene = currentScene as StoryScene;
             bottomBar.PlayScene(storyScene);
             backgroundController.SetImage(storyScene.background);
+            PlayAudio(storyScene.sentences[0]);
         }
     }
 
@@ -35,12 +37,17 @@ public class GameController : MonoBehaviour
         {
             if(state == State.IDLE && bottomBar.IsCompleted())
             {
-                if(bottomBar.IsLastSentence())
+                if (bottomBar.IsLastSentence())
                 {
                     PlayScene((currentScene as StoryScene).nextScene);
                 }
 
-                else bottomBar.PlayNextSentence();
+                else
+                {
+                    bottomBar.PlayNextSentence();
+                    PlayAudio((currentScene as StoryScene)
+                        .sentences[bottomBar.GetSentenceIndex()]);
+                }
             }
         }
     }
@@ -63,6 +70,7 @@ public class GameController : MonoBehaviour
         {
             StoryScene storyScene = scene as StoryScene;
             backgroundController.SwitchImage(storyScene.background);
+            PlayAudio(storyScene.sentences[0]);
             yield return new WaitForSeconds(1f);
             bottomBar.ClearText();
             bottomBar.Show();
@@ -78,4 +86,10 @@ public class GameController : MonoBehaviour
         }
 
     }
+
+    private void PlayAudio(StoryScene.Sentence sentence)
+    {
+        audioController.PlayAudio(sentence.music, sentence.sound);
+    }
+
 }

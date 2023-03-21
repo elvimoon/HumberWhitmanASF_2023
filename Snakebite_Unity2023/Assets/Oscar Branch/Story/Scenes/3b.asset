@@ -15,5 +15,7 @@ MonoBehaviour:
   sentences:
   - text: You've chosen choice 2!
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 8300000, guid: 612a9b20011800547952bda8531b97e0, type: 3}
+    sound: {fileID: 8300000, guid: 5ba0e1e4ba90d504ab55f5603f34dc1e, type: 3}
   background: {fileID: 21300000, guid: 4ef62b32bb5c33f48bc9fab74d1e5df6, type: 3}
   nextScene: {fileID: 11400000, guid: daeb84e2184359349bcc945dfee28403, type: 2}
