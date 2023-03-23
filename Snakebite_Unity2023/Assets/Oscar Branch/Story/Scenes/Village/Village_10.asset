@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a7bebd0bbf27a4ca54d1561e381236, type: 3}
+  m_Name: Village_10
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Come on, Adama! We'll miss lunch at this rate!
+    speaker: {fileID: 11400000, guid: cfab85cd0782ca949a1254c2e086c717, type: 2}
+  - text: (Little Aye is still merrily skipping ahead and doesn't notice the danger
+      ahead nor the warped expression on my face. I hurriedly yell out.)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+  - text: Aye! Watch out! There's a--
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+  - text: (I shout out to no avail. Time seems to slow as I see Aye step down onto
+      the patch of scales resting on the floor.)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+  - text: HSSSSSSSSS...!!!!!!!
+    speaker: {fileID: 11400000, guid: 6efba4eb1192fee47acd465aa0ad6d26, type: 2}
+  - text: (Aye finally notices and hurriedly steps back, but it is too late. The
+      snake lunges forward.)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+  - text: (I watch in horror as the snake bites down with it's jaws and Aye collapses
+      on the floor, crying out in pain.)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+  - text: AAAAAAAAHHHHH!!!!!!
+    speaker: {fileID: 11400000, guid: cfab85cd0782ca949a1254c2e086c717, type: 2}
+  background: {fileID: 21300000, guid: ca2d31887e7a2b842b8f4c8dc2e1a9da, type: 3}
+  nextScene: {fileID: 11400000, guid: 47e84856524003d429f0156d2feb973b, type: 2}
