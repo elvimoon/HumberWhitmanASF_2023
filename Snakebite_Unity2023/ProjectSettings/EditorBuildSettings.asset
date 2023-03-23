@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Oscar Branch/Scenes/Main Menu.unity
+    path: Assets/Oscar Branch/Scenes/MainMenu.unity
     guid: 0eb2ec8291622e7458187ffeb5b9d505
+  - enabled: 1
+    path: Assets/Oscar Branch/Scenes/CreditsScene.unity
+    guid: 42bc13cf6c38c0e438f7b0f383066cdd
   - enabled: 1
     path: Assets/Oscar Branch/Scenes/Test Scene.unity
     guid: e8dfb8d90fa2a0d47afdcbdcd0c0fbb3
