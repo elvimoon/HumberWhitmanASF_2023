@@ -2,11 +2,14 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using TMPro;
 
+[RequireComponent(typeof(TextMeshProUGUI))]
 public class ClickableText : MonoBehaviour, IPointerClickHandler
 {
+    ///////////////////////////////////////////////////////////////////////////////////////////
+    // This script enables functionality to click on links that are embedded into text boxes //
+    ///////////////////////////////////////////////////////////////////////////////////////////
     public void OnPointerClick(PointerEventData eventData)
     {
-        //Debug.Log("Triggered");
         var text = GetComponent<TextMeshProUGUI>();
         if(eventData.button == PointerEventData.InputButton.Left)
         {
@@ -14,8 +17,6 @@ public class ClickableText : MonoBehaviour, IPointerClickHandler
             if(linkIndex > -1)
             {
                 var linkInfo = text.textInfo.linkInfo[linkIndex];
-                //var linkId = linkInfo.GetLinkText();
-                //Debug.Log(linkInfo.GetLinkID());
                 Application.OpenURL(linkInfo.GetLinkID());
             }
         }
