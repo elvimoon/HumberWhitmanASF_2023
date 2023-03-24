@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a7bebd0bbf27a4ca54d1561e381236, type: 3}
+  m_Name: Village_5b
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: (I can look for Aye later, I must tend to the farm first.)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+  - text: (I pass through the village as I head to the farm, but stop when I catch
+      a glimpse of a close neighbor, who calls out.)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+  - text: Good morning Adama! Off to the farm I take it? Let me walk with you some
+      ways, I'm headed in the same direction.
+    speaker: {fileID: 11400000, guid: 8669be0c372de4144a9b863ed6a60f86, type: 2}
+  - text: Good morning! I would love your company. I hope everything's been well,
+      any interesting news?
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+  - text: As a matter of fact, yes! We've had another snakebite incident the other
+      week. Two children, a boy and a girl, their family lives just down the hill.
+    speaker: {fileID: 11400000, guid: 8669be0c372de4144a9b863ed6a60f86, type: 2}
+  - text: (Snakebites are a serious issue here. Snakes are common in this region,
+      and are prone to biting people when aggravated. Even worse, the cost of antivenom
+      and treatment is very expensive. Many families can barely afford it.
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+  - text: That's terrible! Did the children survive? How is the family?
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+  - text: 'The son made it through alright, the family was able to afford the treatment.
+      However their daughter is still in a dangerous condition right now at the clinic...you
+      know how it is, Adama. '
+    speaker: {fileID: 11400000, guid: 8669be0c372de4144a9b863ed6a60f86, type: 2}
+  - text: With how expensive treatment is, they prioritized their son....it wasn't
+      an easy decision I'm sure...
+    speaker: {fileID: 11400000, guid: 8669be0c372de4144a9b863ed6a60f86, type: 2}
+  - text: ...I understand. It's a tough decision for any family, and I'll pray for
+      them. I'll part with you here, the farm is in this direction, be well.
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+  background: {fileID: 21300000, guid: a8fcbb41800beec45ac0c89bdd0a279b, type: 3}
+  nextScene: {fileID: 11400000, guid: f25346745c65dda41bc69aab784d73ba, type: 2}
