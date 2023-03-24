@@ -15,19 +15,31 @@ MonoBehaviour:
   sentences:
   - text: The following is a estimated 10-15 minute visual novel experience.
     speaker: {fileID: 11400000, guid: baae7233fb1e42f47a42787920731bd1, type: 2}
+    music: {fileID: 8300000, guid: 612a9b20011800547952bda8531b97e0, type: 3}
+    sound: {fileID: 0}
   - text: Please note there will be imagery containing injuries that may not be for
       the faint of heart.
     speaker: {fileID: 11400000, guid: baae7233fb1e42f47a42787920731bd1, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 5ba0e1e4ba90d504ab55f5603f34dc1e, type: 3}
   - text: You will be playing as Adama, a member of a poor family of farmers in Guinea,
       Africa.
     speaker: {fileID: 11400000, guid: baae7233fb1e42f47a42787920731bd1, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: You will be faced with choices throughout the game that will potentially
       affect the ending of your experience.
     speaker: {fileID: 11400000, guid: baae7233fb1e42f47a42787920731bd1, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: (Dialogue lines contained inside parentheses indicates an internal monologue
       from the speaker.)
     speaker: {fileID: 11400000, guid: baae7233fb1e42f47a42787920731bd1, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: We hope you enjoy the experience.
     speaker: {fileID: 11400000, guid: baae7233fb1e42f47a42787920731bd1, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
   background: {fileID: 21300000, guid: b8c83f19673b9fc4980c353e61fbfc2f, type: 3}
   nextScene: {fileID: 11400000, guid: a016bf522e7f07b42b392de789258da9, type: 2}
