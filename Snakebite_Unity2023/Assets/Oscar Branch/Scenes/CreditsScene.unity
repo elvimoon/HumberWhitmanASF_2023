@@ -453,7 +453,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: '<link=https://www.freepik.com/free-vector/circle-buttons-with-wooden-texture-icons_27368299.htm#&position=3&from_view=undefined><u><color=white>Circle
-    buttons by upklyak </color></u></link> on Freepik
+    buttons by upklyak </color></u></link> on Freepik.com
 
 '
   m_isRightToLeft: 0
@@ -821,7 +821,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1188904830
 RectTransform:
   m_ObjectHideFlags: 0
