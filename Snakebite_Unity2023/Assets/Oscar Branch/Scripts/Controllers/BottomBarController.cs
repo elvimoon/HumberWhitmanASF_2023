@@ -28,6 +28,11 @@ public class BottomBarController : MonoBehaviour
 
     }
 
+    public int GetSentenceIndex()
+    {
+        return sentenceIndex;
+    }
+
     //function to hide the bottombar via anim
     public void Hide()
     {
