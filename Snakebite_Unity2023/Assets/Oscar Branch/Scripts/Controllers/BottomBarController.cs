@@ -28,6 +28,11 @@ public class BottomBarController : MonoBehaviour
 
     }
 
+    public int GetSentenceIndex()
+    {
+        return sentenceIndex;
+    }
+
     //function to hide the bottombar via anim
     public void Hide()
     {
@@ -91,7 +96,7 @@ public class BottomBarController : MonoBehaviour
         while (state != State.COMPLETED)
         {
             barText.text += text[wordIndex];
-            yield return new WaitForSeconds(0.05f);
+            yield return new WaitForSeconds(0.03f);
 
             if (++wordIndex == text.Length)
             {

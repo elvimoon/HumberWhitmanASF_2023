@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a7bebd0bbf27a4ca54d1561e381236, type: 3}
+  m_Name: Village_9
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: (I join Aye and we head back home for some lunch, chatting along the way.)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+  - text: ...is what my friends heard around the village! Right by the river as well!
+    speaker: {fileID: 11400000, guid: cfab85cd0782ca949a1254c2e086c717, type: 2}
+  - text: A snake sighted next to the river, good thing someone spotted it and warning
+      everyone!
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+  - text: I'm sure it would've been fine! Snakes aren't a big deal!
+    speaker: {fileID: 11400000, guid: cfab85cd0782ca949a1254c2e086c717, type: 2}
+  - text: Listen to me, little Aye. You must be wary and pay attention to your surroundings.
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+  - text: Snakes are dangerous, and can easily blend in with the environment. There
+      have already been sightings of snakes nearby the village too.
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+  - text: Yes, yes. I'll be careful, you worry too much!
+    speaker: {fileID: 11400000, guid: cfab85cd0782ca949a1254c2e086c717, type: 2}
+  - text: (Aye acts nonchalantly despite my warnings, merrily skipping down the road
+      as they turn back to me, motioning to pick up the pace.)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+  - text: (I sigh to myself as I make a mental note to have the rest of the family
+      warn little Aye about the dangers of snakes later, when something suddenly
+      catches my eye.)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+  - text: (Something felt off and didn't look right by the patch of dirt and mud
+      up ahead. I stared intensely before noticing a small movement and felt cold
+      sweat drip down my back.)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+  background: {fileID: 21300000, guid: 9ddbea88ce8faf846824cd6a85adba6f, type: 3}
+  nextScene: {fileID: 11400000, guid: c4998c199b0b33d469281e8049a6c77e, type: 2}

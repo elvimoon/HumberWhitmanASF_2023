@@ -17,6 +17,9 @@ public class StoryScene : GameScene
     {
         public string text;
         public Speaker speaker;
+
+        public AudioClip music;
+        public AudioClip sound;
     }
 }
 
