@@ -1,15 +1,20 @@
 using System.Collections.Generic;
 using UnityEngine;
+using static StoryScene;
 
 [CreateAssetMenu(fileName = "NewStoryScene", menuName = "Data/New Story Scene")]
 [System.Serializable]
 
 // THIS SCENE WILL CONTAIN A BACKGROUND, A LIST OF SENTENCES TO BE PLAYED, AND THE NEXT SCENE
-public class StoryScene : GameScene
+public class StoryScene : TextScene
+{
+    public Sprite background;
+    public GameScene nextScene;    
+}
+
+public class TextScene : GameScene
 {
     public List<Sentence> sentences;
-    public Sprite background;
-    public GameScene nextScene;
 
     // For sentences, we create a separate structure, which also includes the speaker
     [System.Serializable]
