@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a7bebd0bbf27a4ca54d1561e381236, type: 3}
+  m_Name: Travel_3
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Yes, baba! Hang on Aye!
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: (I quickly rush down the hill towards the local healer, the villagers parting
+      ways to clear me a path, sending me gazes mixed with empathy and sadness)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: (Upon approaching, I see others who were also injured or being treated,
+      from things like cuts or broken bones)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: (I see our the healer, standing out the door and quickly shout out)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Nganga! Please help, my little Aye has been bitten by a snake!
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: kak! Quickly Adama, bring Aye inside on the bed!
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 275b8f9890630044fb03fdd59f9bb2db, type: 3}
+  nextScene: {fileID: 11400000, guid: 0a60865109532ae49a72431c50162e77, type: 2}

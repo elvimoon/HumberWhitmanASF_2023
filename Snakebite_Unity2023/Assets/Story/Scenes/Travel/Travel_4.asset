@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a7bebd0bbf27a4ca54d1561e381236, type: 3}
+  m_Name: Travel_4
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: (I bring Aye inside and lay them down on a bed, staring worriedly as the
+      healer assesses Aye's condition)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: (It has already been about an hour since the bite and while Aye is still
+      conscious, I notice a visible amount of sweating along with a pale face.)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Nganga, how is Aye, can you do anything?
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: tsk, calm yourself Adama. Cuts and broken bones, I can easily help, but
+      snakebites are different. I can clean and bandage the wound, but I have no
+      effective treatment for the venom.
+    speaker: {fileID: 11400000, guid: 2597bc636f4f9b843b0c91bf8c4522e5, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Please do what you can then, nganga.
+    speaker: {fileID: 11400000, guid: 2a922bfb9a9ddb84abf5890a3a80205c, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: (My father suddenly enters the hut and instructs the healer to try to treat
+      Aye.)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Baba! Nganga doesn''t have antivenom, we need to bring Aye to the clinic
+      instead!"'
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"...listen to me Adama. The clinic is another village travel''s away,
+      and there is no guarantee they can also help Aye."'
+    speaker: {fileID: 11400000, guid: 2a922bfb9a9ddb84abf5890a3a80205c, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: B-Baba? What are you saying?
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Adama listen to me I'm being realistic. The price of antivenom is very
+      expensive, almost an entire month's worth of our family's earnings. This also
+      doesn't include the cost of rehabilitation afterwards.
+    speaker: {fileID: 11400000, guid: 2a922bfb9a9ddb84abf5890a3a80205c, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: We'll have Nganga do what they can for Aye, but we must also think of the
+      rest of our family.
+    speaker: {fileID: 11400000, guid: 2a922bfb9a9ddb84abf5890a3a80205c, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I...I must think, baba..
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 0067d1df464873e40bc35395483f0bf8, type: 3}
+  nextScene: {fileID: 0}
