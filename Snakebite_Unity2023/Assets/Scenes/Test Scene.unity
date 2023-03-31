@@ -1200,6 +1200,7 @@ GameObject:
   - component: {fileID: 218256371}
   - component: {fileID: 218256370}
   - component: {fileID: 218256374}
+  - component: {fileID: 218256375}
   m_Layer: 5
   m_Name: MainCanvas
   m_TagString: Untagged
@@ -1321,6 +1322,22 @@ MonoBehaviour:
   transition: {fileID: 1272775532}
   transitionTime: 1
   creditsScene: CreditsScene
+--- !u!114 &218256375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218256369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71130dbfe3426e648b45171b3f969190, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 24100000, guid: c2259ed5b70245b47a983f2484200111, type: 2}
+  musicSlider: {fileID: 432427605}
+  soundsSlider: {fileID: 1404189505}
+  masterSlider: {fileID: 1747102334}
 --- !u!1 &229890017
 GameObject:
   m_ObjectHideFlags: 0
