@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14d7642ec2b798f47bdb3aa97c185b90, type: 3}
+  m_Name: TravelChoice_1
+  m_EditorClassIdentifier: 
+  labels:
+  - text: Go to the clinic.
+    nextScene: {fileID: 11400000, guid: 7a462291cdaeceb40891f79d0159bfec, type: 2}
+  - text: Stay with the healer.
+    nextScene: {fileID: 11400000, guid: 0a3c2fe2b03522c4ab31df35b3243a03, type: 2}

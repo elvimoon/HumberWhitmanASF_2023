@@ -21,7 +21,7 @@ MonoBehaviour:
       the faint of heart.
     speaker: {fileID: 11400000, guid: baae7233fb1e42f47a42787920731bd1, type: 2}
     music: {fileID: 0}
-    sound: {fileID: 8300000, guid: 5ba0e1e4ba90d504ab55f5603f34dc1e, type: 3}
+    sound: {fileID: 0}
   - text: You will be playing as Adama, a member of a poor family of farmers in Guinea,
       Africa.
     speaker: {fileID: 11400000, guid: baae7233fb1e42f47a42787920731bd1, type: 2}
