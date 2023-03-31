@@ -11,15 +11,15 @@ public class BottomBarController : MonoBehaviour
     public TextMeshProUGUI personNameText;
 
     private int sentenceIndex = -1;
-    private StoryScene currentScene;
+    private TextScene currentScene;
     private State state = State.COMPLETED;
     private Animator animator;
-    private bool isHidden = false;
+    private bool isHidden = true;
 
     //will also create an enum state in order to understand whether we have displayed everything or not
     private enum State
     {
-        PLAYING, COMPLETED
+        WAITING, PLAYING, COMPLETED
     }
 
     private void Start()
@@ -32,6 +32,8 @@ public class BottomBarController : MonoBehaviour
     {
         return sentenceIndex;
     }
+
+    public void SetWaitingState() { state = State.WAITING; }
 
     //function to hide the bottombar via anim
     public void Hide()
@@ -54,12 +56,15 @@ public class BottomBarController : MonoBehaviour
     }
 
     //function to clear the text, which will be used before appearance of the panel
-    public void ClearText()
+    public void ClearText(TextScene scene)
     {
         barText.text = "";
+        //set initial speaker and color
+        personNameText.text = scene.sentences[0].speaker.speakerName;
+        personNameText.color = scene.sentences[0].speaker.textColor;
     }
 
-    public void PlayScene(StoryScene scene)
+    public void PlayScene(TextScene scene)
     {
         currentScene = scene;
         sentenceIndex = -1;
@@ -73,6 +78,7 @@ public class BottomBarController : MonoBehaviour
         //set speaker and color
         personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
         personNameText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
+
     }
 
     public bool IsCompleted()

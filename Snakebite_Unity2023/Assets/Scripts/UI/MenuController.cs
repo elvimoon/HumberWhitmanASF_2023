@@ -17,12 +17,6 @@ public class MenuController : MonoBehaviour
     {
         StartCoroutine(LoadLevel(creditsScene));
     }
-
-    public void Quit()
-    {
-        Application.Quit();
-    }
-
     IEnumerator LoadLevel(string levelName)
     {
         transition.SetTrigger("Start");
