@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a7bebd0bbf27a4ca54d1561e381236, type: 3}
+  m_Name: Travel_16
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: (A while later as the sun begins to set, I see the village in sight and
+      hurry my steps.)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: (I approach the nearest villager and enquire for the location of the snakebite
+      clinic, thanking them as I hurry.)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: (The journey must have been tough for Aye, I can hear their breathing getting
+      more and more ragged as time passed.)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 6a1972ce7b6a707419018ca229fea718, type: 3}
+  nextScene: {fileID: 11400000, guid: f8e5836b4d8888b4aaeaf87cd3da5f36, type: 2}

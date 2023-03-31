@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a7bebd0bbf27a4ca54d1561e381236, type: 3}
+  m_Name: Travel_8
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: (I wait for nganga to clean and bandage the snakebite and then carry little
+      Aye back to the village, hoping to find a means of transportation.)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Adama is that you? What''s wrong?"'
+    speaker: {fileID: 11400000, guid: 7b1b51df6bf4f5847b8cb9099d5a5685, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: a8fcbb41800beec45ac0c89bdd0a279b, type: 3}
+  nextScene: {fileID: 11400000, guid: 6a8d396164ae2b14ab662e2a29904c6f, type: 2}
