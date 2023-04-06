@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TravelChoice_2
   m_EditorClassIdentifier: 
   labels:
-  - text: Light-Brown Snake
+  - text: Poisonous Toxins
     nextScene: {fileID: 11400000, guid: 1788f0c0f236ae0489317c8db14ed4a8, type: 2}
-  - text: Dark-Brown Snake
+  - text: Venomous Toxins
     nextScene: {fileID: 11400000, guid: 1788f0c0f236ae0489317c8db14ed4a8, type: 2}

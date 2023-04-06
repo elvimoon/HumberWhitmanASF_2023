@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: Travel_15
   m_EditorClassIdentifier: 
   sentences:
-  - text: (As we tried to recall the details and answered the various questions,
-      we hear noise ahead and the motorbike slows down.)
+  - text: A few hours later, we hear noise ahead and the motorbike slows down.)
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     music: {fileID: 0}
     sound: {fileID: 0}

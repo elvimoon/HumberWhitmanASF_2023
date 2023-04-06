@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Travel_14
   m_EditorClassIdentifier: 
   sentences:
-  - text: Why did the snake bite Aye?
+  - text: Can you afford the antivenom?
     speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
     music: {fileID: 0}
     sound: {fileID: 0}

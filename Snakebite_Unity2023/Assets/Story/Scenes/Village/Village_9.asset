@@ -15,30 +15,68 @@ MonoBehaviour:
   sentences:
   - text: (I join Aye and we head back home for some lunch, chatting along the way.)
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: ...is what my friends heard around the village! Right by the river as well!
     speaker: {fileID: 11400000, guid: cfab85cd0782ca949a1254c2e086c717, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: A snake sighted next to the river, good thing someone spotted it and warning
       everyone!
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I'm sure it would've been fine! Snakes aren't a big deal!
     speaker: {fileID: 11400000, guid: cfab85cd0782ca949a1254c2e086c717, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Listen to me, little Aye. You must be wary and pay attention to your surroundings.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Snakes are dangerous, and can easily blend in with the environment. There
       have already been sightings of snakes nearby the village too.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: Yes, yes. I'll be careful, you worry too much!
     speaker: {fileID: 11400000, guid: cfab85cd0782ca949a1254c2e086c717, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: (Aye acts nonchalantly despite my warnings, merrily skipping down the road
       as they turn back to me, motioning to pick up the pace.)
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: (I sigh to myself as I make a mental note to have the rest of the family
       warn little Aye about the dangers of snakes later, when something suddenly
       catches my eye.)
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: (Something felt off and didn't look right by the patch of dirt and mud
       up ahead. I stared intensely before noticing a small movement and felt cold
       sweat drip down my back.)
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Come on, Adama! We'll miss lunch at this rate!
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: (Little Aye is still merrily skipping ahead and doesn't notice the danger
+      ahead nor the warped expression on my face. I hurriedly yell out.)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Aye! Watch out! There's a--
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: (I shout out to no avail. Time seems to slow as I see Aye step down onto
+      the patch of scales resting on the floor.)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
   background: {fileID: 21300000, guid: 9ddbea88ce8faf846824cd6a85adba6f, type: 3}
   nextScene: {fileID: 11400000, guid: c4998c199b0b33d469281e8049a6c77e, type: 2}
