@@ -16,12 +16,21 @@ MonoBehaviour:
   - text: (I step outside the hut and see the village bustling with activity. People
       are going about their daily routines even though it is so early.)
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: (I see women carrying buckets from the nearby river, and children laughing
       and running around playing games.)
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: I don't see my little Aye with those children, I still have some time,
       perhaps I should go check if Aye is with the neighbors before tending to the
       farm...
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-  background: {fileID: 21300000, guid: c107c83092b9d774ca24886f4d57d71e, type: 3}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 69ae7afb8ee0f0c4586512080462b9e9, type: 3}
   nextScene: {fileID: 11400000, guid: ee5af336b86e16f4b806c7d6d8135a24, type: 2}

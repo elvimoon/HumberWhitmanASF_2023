@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a7bebd0bbf27a4ca54d1561e381236, type: 3}
+  m_Name: Treat_5
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: (On the other side of the room, I notice medical supplies and equipment
+      laid out on top of tables, organized and ready for use.)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Adama? The doctors are here now.
+    speaker: {fileID: 11400000, guid: 0ee4c79b391684241939d49989a4093c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: (The staff member returns with a doctor in tow, who promptly greets me
+      and begins diagnosing Aye.)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Good evening Adama, I'm aware Aye has been bitten by a snake on the ankle
+      earlier today. Please allow me to take a look.
+    speaker: {fileID: 11400000, guid: a0b56f36ad48a5649b179613a75bdabe, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: (The doctor takes Aye's temperature and slowly unwraps the bandages applied
+      earlier by Nganga.)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: ...fever, sweating and swelling. Fortunately no pus or further bleeding...Adama,
+      do you remember any details about the snake?
+    speaker: {fileID: 11400000, guid: a0b56f36ad48a5649b179613a75bdabe, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: (I try my best to recall the moment when the snake attacked, but apart
+      from a blur of brown I unfortunately couldn't recall much about the snake).
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Not to worry Adama. Not being able to remember certain details about the
+      snake is a common occurrence when your mind is otherwise panicking and stressed
+      about the situation.
+    speaker: {fileID: 11400000, guid: 0ee4c79b391684241939d49989a4093c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: My colleague here is correct, fortunately the symptoms aren't too severe
+      and we have the antivenom in stock to help treat Aye, as you can see.
+    speaker: {fileID: 11400000, guid: a0b56f36ad48a5649b179613a75bdabe, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: c74fc6aba57fd824c8524c04a7f24c5d, type: 3}
+  nextScene: {fileID: 11400000, guid: 657d5515a82a5c547afa69846855b292, type: 2}
