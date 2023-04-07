@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a7bebd0bbf27a4ca54d1561e381236, type: 3}
+  m_Name: Treat_7
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: (1 week later)
+    speaker: {fileID: 11400000, guid: 3261d5c9b2fe248459a2c5934c5bc5c0, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Remember to properly thank the staff, Aye.
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Yes yes, thank you for all your help ASF!
+    speaker: {fileID: 11400000, guid: cfab85cd0782ca949a1254c2e086c717, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: (It's been a week since I first brought Aye to the ASF clinic. Thanks to
+      the hard work of the doctors and staff, Aye was saved and recovered enough
+      to be able to be sent home.)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: (Treatment and rehab will continue, but that is something we'll get through,
+      together.)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: (Today is the day we finally head back home, as we're saying our goodbyes
+      and giving our thanks to the members of ASF.)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: It was our pleasure, Adama and little Aye. We hope you two have a pleasant
+      day, and a safe trip back home!
+    speaker: {fileID: 11400000, guid: 0ee4c79b391684241939d49989a4093c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 11bc2a3e3fad416479f1ca25d62e14a1, type: 3}
+  nextScene: {fileID: 11400000, guid: 2f00ee8ec09fd704589d39eb438766b1, type: 2}
