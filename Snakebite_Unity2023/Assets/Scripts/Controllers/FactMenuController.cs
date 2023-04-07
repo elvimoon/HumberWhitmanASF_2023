@@ -40,10 +40,12 @@ public class FactMenuController : MonoBehaviour
 
         if (menuOn)
         {
+            gameObject.SetActive(true);
             menuBody.SetActive(true);
         }
         else
         {
+            gameObject.SetActive(false);
             menuBody.SetActive(false);
         }
 

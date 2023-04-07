@@ -15,20 +15,24 @@ public class BackgroundController : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
+    //switch first = first -> second
     //function to smoothly change background and a function to force it to change
-    public void SwitchImage(Sprite sprite)
+    public bool SwitchImage(Sprite sprite)
     {
         if (!isSwitched)
         {
+            if (sprite == image1.sprite) return false;
             image2.sprite = sprite;
             animator.SetTrigger("SwitchFirst");
         }
         else
         {
+            if (sprite == image2.sprite) return false;
             image1.sprite = sprite;
             animator.SetTrigger("SwitchSecond");
         }
         isSwitched = !isSwitched;
+        return true;
     }
 
     public void SetImage(Sprite sprite)

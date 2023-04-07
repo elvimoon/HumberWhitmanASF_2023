@@ -68,6 +68,29 @@ public class BottomBarController : MonoBehaviour
         personNameText.color = scene.sentences[0].speaker.textColor;
     }
 
+    public void Resize(TextScene scene)
+    {
+        string temp = barText.text;
+        barText.text = scene.sentences[0].text;
+        GetComponent<RectTransform>().sizeDelta =
+                new Vector2(GetComponent<RectTransform>().sizeDelta.x,
+                barText.GetPreferredValues().y + 30);
+        Debug.Log(barText.GetPreferredValues().y);
+        barText.text = temp;
+    }
+
+    public void ResizeText(TextScene scene)
+    {
+        barText.autoSizeTextContainer = true;
+        string temp = barText.text;
+        barText.text = scene.sentences[0].text;
+        float size = barText.fontSize;
+        barText.autoSizeTextContainer = false;
+        barText.fontSize = size;
+        Debug.Log(size);
+        barText.text = temp;
+    }
+
     public void PlayScene(TextScene scene)
     {
         currentScene = scene;

@@ -10,6 +10,7 @@ public class ChooseLabelController : MonoBehaviour, IPointerClickHandler, IPoint
     public Color defaultColor;
     public Color hoverColor;
     private StoryScene scene;
+    private SummaryScene summaryScene;
     private TextMeshProUGUI textMesh;
     private ChooseController controller;
 
@@ -28,6 +29,7 @@ public class ChooseLabelController : MonoBehaviour, IPointerClickHandler, IPoint
     public void Setup(ChooseScene.ChooseLabel label, ChooseController controller, float y)
     {
         scene = label.nextScene;
+        summaryScene = label.summaryScene;
         textMesh.text = label.text;
         this.controller = controller;
 
@@ -38,7 +40,7 @@ public class ChooseLabelController : MonoBehaviour, IPointerClickHandler, IPoint
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        controller.PerformChoose(scene);
+        controller.PerformChoose(scene, summaryScene);
     }
 
     public void OnPointerEnter(PointerEventData eventData)

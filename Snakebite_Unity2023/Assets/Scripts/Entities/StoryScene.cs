@@ -9,7 +9,9 @@ using static StoryScene;
 public class StoryScene : TextScene
 {
     public Sprite background;
-    public GameScene nextScene;    
+    public GameScene nextScene;
+    public int time = 0;
+    public bool isTimeVisible = false;
 }
 
 public class TextScene : GameScene

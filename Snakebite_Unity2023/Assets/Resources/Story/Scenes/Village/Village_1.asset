@@ -49,3 +49,5 @@ MonoBehaviour:
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: b8c83f19673b9fc4980c353e61fbfc2f, type: 3}
   nextScene: {fileID: 11400000, guid: a016bf522e7f07b42b392de789258da9, type: 2}
+  time: 0
+  isTimeVisible: 0
