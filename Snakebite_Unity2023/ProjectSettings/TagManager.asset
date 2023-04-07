@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Menu Category
   - Button Category
+  - Entry
+  - EntryTitle
+  - EntryText
+  - Codex Menu
   layers:
   - Default
   - TransparentFX
