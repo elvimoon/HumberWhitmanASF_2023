@@ -15,11 +15,13 @@ MonoBehaviour:
   sentences:
   - text: (I head outside the hut and contemplate to myself)
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: (I was aware of the high treatment cost of antivenom from the stories and
       the neighbors, but I never would have believed this would happen to my family.)
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: (On one hand, I can choose to journey to the clinic. Yes, the treatment
@@ -27,16 +29,21 @@ MonoBehaviour:
       to part ways with some crops and our animals...yes we'll suffer financially,
       but we'll all be alive and together.)
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: (On the other, I can trust the healer to do what they can for little Aye
       and bring them home, then hope for the best.)
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: (What should I do...)
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: c107c83092b9d774ca24886f4d57d71e, type: 3}
   nextScene: {fileID: 11400000, guid: f659b0c43c9f1364791c4fb429d6ea34, type: 2}
+  time: 1
+  isTimeVisible: 0

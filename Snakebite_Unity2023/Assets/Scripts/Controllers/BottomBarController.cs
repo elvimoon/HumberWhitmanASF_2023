@@ -91,6 +91,13 @@ public class BottomBarController : MonoBehaviour
         barText.text = temp;
     }
 
+    public void PrintEverything(TextScene scene)
+    {
+        StopAllCoroutines();
+        barText.text = scene.sentences[sentenceIndex].text;
+        state = State.COMPLETED;
+    }
+
     public void PlayScene(TextScene scene)
     {
         currentScene = scene;
@@ -129,7 +136,7 @@ public class BottomBarController : MonoBehaviour
         while (state != State.COMPLETED)
         {
             barText.text += text[wordIndex];
-            yield return new WaitForSeconds(0.01f);
+            yield return new WaitForSeconds(0.02f);
 
             if (++wordIndex == text.Length)
             {

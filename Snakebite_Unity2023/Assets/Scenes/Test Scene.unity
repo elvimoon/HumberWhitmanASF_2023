@@ -887,7 +887,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &203063227
 RectTransform:
   m_ObjectHideFlags: 0
@@ -906,8 +906,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 439, y: -77}
-  m_SizeDelta: {x: 800, y: 100}
+  m_AnchoredPosition: {x: 461, y: -77}
+  m_SizeDelta: {x: 850, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &210149108
 GameObject:
@@ -992,8 +992,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1327676819}
   m_HandleRect: {fileID: 1327676818}
   m_Direction: 2
-  m_Value: 1.0000001
-  m_Size: 0.5266667
+  m_Value: 1
+  m_Size: 0.52666664
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1282,7 +1282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f383c943185da74397f17d01ef31272, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentScene: {fileID: 11400000, guid: daeb84e2184359349bcc945dfee28403, type: 2}
+  currentScene: {fileID: 11400000, guid: f8ee90c197f27624d96e18981296129e, type: 2}
   dScene: {fileID: 11400000, guid: 5f01cc591252aaa4184465a05851053d, type: 2}
   rScene: {fileID: 11400000, guid: 3713407e95f4f96408ca2f43a2b4b66e, type: 2}
   bottomBarController: {fileID: 193512412}
@@ -5402,7 +5402,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Time Since Bitten:'
+  m_text: 'Hours Since Bitten:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -8281,7 +8281,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -350, y: -648}
+  m_AnchoredPosition: {x: -350, y: -560}
   m_SizeDelta: {x: 600, y: 790}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &2087093400

@@ -15,29 +15,35 @@ MonoBehaviour:
   sentences:
   - text: I-It hurts, go away, s-stay back!
     speaker: {fileID: 11400000, guid: cfab85cd0782ca949a1254c2e086c717, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: (The snake releases Aye and coils back, seemingly ready to strike again)
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: (I was cautious, yet incredibly worried about Aye, wanting to rush forward
       but barely holding myself back)
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: (Thankfully, after another bout of loud hisses, the snake retreats back
       into the foliage and disappears)
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: (I let out a sigh of relief and immediately rush towards Aye, who is collapsed
       on the floor in tears holding on to their leg)
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Little Aye, are you alright?! Hold on, everything will be ok
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: (Upon closer inspection, I can see two large puncture wounds on Aye's ankle,
@@ -45,15 +51,20 @@ MonoBehaviour:
       up hearing stories from the neighbors and my family, I know Aye must be treated
       immediately)
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: A-Adama, it hurts, it hurts....am I going to die?
     speaker: {fileID: 11400000, guid: cfab85cd0782ca949a1254c2e086c717, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Hush little one, quickly now get on my back, we need to bring you home
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: f08cca9377e74b247af36231503ec94a, type: 3}
   nextScene: {fileID: 11400000, guid: 217f633a20a5d524685928b129157f36, type: 2}
+  time: 0
+  isTimeVisible: 1

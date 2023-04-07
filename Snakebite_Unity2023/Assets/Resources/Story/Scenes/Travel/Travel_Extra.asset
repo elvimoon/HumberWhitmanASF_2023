@@ -42,4 +42,6 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 9ddbea88ce8faf846824cd6a85adba6f, type: 3}
-  nextScene: {fileID: 11400000, guid: d5e9c716afc6a684799efbe696a87d86, type: 2}
+  nextScene: {fileID: 11400000, guid: a6a93a37413419d49984402332702da1, type: 2}
+  time: 6
+  isTimeVisible: 0

@@ -90,6 +90,9 @@ public class GameController : MonoBehaviour
                         .sentences[bottomBarController.GetSentenceIndex()]);
                 }
             }
+            else if(state == State.IDLE && !bottomBarController.IsCompleted()) {
+                bottomBarController.PrintEverything(currentScene as TextScene);
+            }
         }
         // Show button only after Text is completed
         //else if(bottomBarController.IsCompleted() && currentScene is SummaryScene && isNextButtonHidden)
@@ -161,7 +164,7 @@ public class GameController : MonoBehaviour
             bottomBarController.PlayScene(storyScene);
 
             totalTime += storyScene.time;
-            timeText.text = "Time Since Bitten: " + totalTime.ToString();
+            timeText.text = "Hours Since Bitten: " + totalTime.ToString();
             if (storyScene.isTimeVisible)
             {
                 timeBar.SetActive(true);
