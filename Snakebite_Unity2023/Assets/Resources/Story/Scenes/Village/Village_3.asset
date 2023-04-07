@@ -16,8 +16,14 @@ MonoBehaviour:
   - text: (I quickly freshen up and head to the living room, but I don't hear anyone
       else in the house.)
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
   - text: It seems everyone has already left, even my child little Aye. I should
       hurry too.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    music: {fileID: 0}
+    sound: {fileID: 0}
   background: {fileID: 21300000, guid: b8c83f19673b9fc4980c353e61fbfc2f, type: 3}
   nextScene: {fileID: 11400000, guid: 8de5fd17b323eb74eb52425a62c99f00, type: 2}
+  time: 0
+  isTimeVisible: 0

@@ -15,5 +15,7 @@ MonoBehaviour:
   labels:
   - text: Light-Brown Snake
     nextScene: {fileID: 11400000, guid: 1788f0c0f236ae0489317c8db14ed4a8, type: 2}
+    summaryScene: {fileID: 11400000, guid: fcf0a66aac0dd274fa944cce19458112, type: 2}
   - text: Dark-Brown Snake
     nextScene: {fileID: 11400000, guid: 1788f0c0f236ae0489317c8db14ed4a8, type: 2}
+    summaryScene: {fileID: 11400000, guid: 772edf6ad9bc0c04a9426f88d34f1efc, type: 2}

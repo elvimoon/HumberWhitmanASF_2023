@@ -15,5 +15,6 @@ public class ChooseScene : GameScene
     {
         public string text;
         public StoryScene nextScene;
+        public SummaryScene summaryScene;
     }
 }

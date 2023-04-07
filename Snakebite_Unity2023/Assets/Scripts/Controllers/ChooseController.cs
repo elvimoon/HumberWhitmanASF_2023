@@ -11,6 +11,7 @@ public class ChooseController : MonoBehaviour
     private RectTransform rectTransform;
     private Animator animator;
     private float labelHeight = -1;
+    private bool isClicked = false;
 
     //when selection screen is called, we want to generate labels
     void Start()
@@ -45,10 +46,15 @@ public class ChooseController : MonoBehaviour
     }
 
     //as soon as player clicks on label, hide selection screen and go to corresponding scene
-    public void PerformChoose(StoryScene scene)
+    public void PerformChoose(StoryScene scene, SummaryScene summaryScene)
     {
-        gameController.PlayScene(scene);
-        animator.SetTrigger("Hide");
+        if (!isClicked)
+        {
+            if(summaryScene) gameController.endScenes.Enqueue(summaryScene);
+            animator.SetTrigger("Hide");
+            gameController.PlayScene(scene);
+            isClicked = true;
+        }
     }
 
     //we want that regardless of # of labels, they should always be in middle of the screen
@@ -91,5 +97,6 @@ public class ChooseController : MonoBehaviour
         {
             Destroy(childTransform.gameObject);
         }
+        isClicked = false;
     }
 }
