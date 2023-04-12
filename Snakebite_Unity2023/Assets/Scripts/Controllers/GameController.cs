@@ -45,7 +45,7 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
-        //endScenes.Enqueue(Resources.Load("Story/Scenes/Ending/Summary1") as TextScene);
+        endScenes.Enqueue(Resources.Load("Story/Scenes/Ending/Summary1") as TextScene);
         //endScenes.Enqueue(Resources.Load("Story/Scenes/Ending/Summary2") as TextScene);
         resolution = new Vector2(Screen.width, Screen.height);
         StartCoroutine(OnStart());
@@ -69,7 +69,7 @@ public class GameController : MonoBehaviour
     //pressing spacebar or left mouse button will display the following sentence
     void Update()
     {
-        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) && !(currentScene is DonateScene))
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) && !(currentScene is DonateScene) && !(currentScene is ResultScene))
         {
             if(state == State.IDLE && bottomBarController.IsCompleted())
             {
@@ -95,11 +95,11 @@ public class GameController : MonoBehaviour
             }
         }
         // Show button only after Text is completed
-        //else if(bottomBarController.IsCompleted() && currentScene is SummaryScene && isNextButtonHidden)
-        //{
-        //    nextButton.GetComponent<Animator>().SetTrigger("Show");
-        //    isNextButtonHidden = false;
-        //}
+        else if (bottomBarController.IsCompleted() && currentScene is ResultScene && isNextButtonHidden)
+        {
+            nextButton.GetComponent<Animator>().SetTrigger("Show");
+            isNextButtonHidden = false;
+        }
         // Show buttons only after Text is completed
         else if (bottomBarController.IsCompleted() && currentScene is DonateScene && isDonateButtonHidden)
         {
@@ -133,6 +133,7 @@ public class GameController : MonoBehaviour
     {
         if (isFirstEndSceen)
         {
+            timeBar.GetComponent<Animator>().SetTrigger("Hide");
             endScenes.Enqueue(rScene as TextScene);
             endScenes.Enqueue(dScene as TextScene);
             isFirstEndSceen = false;
@@ -147,7 +148,7 @@ public class GameController : MonoBehaviour
         //at beginning of anim, panel will disappear, then bg will change, then panel will appear
         state = State.ANIMATE;
         if(currentScene is ResultScene) resultsSign.GetComponent<Animator>().SetTrigger("Hide");
-        //if(currentScene is SummaryScene) nextButton.GetComponent<Animator>().SetTrigger("Hide");
+        if(currentScene is ResultScene) nextButton.GetComponent<Animator>().SetTrigger("Hide");
         currentScene = scene;
         bottomBarController.Hide();
         yield return new WaitForSeconds(1f);
@@ -167,7 +168,7 @@ public class GameController : MonoBehaviour
             timeText.text = "Hours Since Bitten: " + totalTime.ToString();
             if (storyScene.isTimeVisible)
             {
-                timeBar.SetActive(true);
+                timeBar.GetComponent<Animator>().SetTrigger("Show");
             }
 
             state = State.IDLE;
