@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: Travel_13
   m_EditorClassIdentifier: 
   sentences:
-  - text: Where did the snake bite Aye?
+  - text: '"Where did the snake bite Aye?"'
     speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: e1e596673de328446b3216fce63c96e5, type: 3}
   nextScene: {fileID: 11400000, guid: f93ef7537f14c71469e741d88bd935e0, type: 2}
+  time: 0
+  isTimeVisible: 0

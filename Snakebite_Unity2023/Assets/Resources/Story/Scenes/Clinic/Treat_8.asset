@@ -13,53 +13,55 @@ MonoBehaviour:
   m_Name: Treat_8
   m_EditorClassIdentifier: 
   sentences:
-  - text: (Aye and I walk out of the clinic and slowly walk to the village exit in
-      search for a taxi hand in hand.)
+  - text: Aye and I walk out of the clinic and slowly walk to the village exit in
+      search for a taxi hand in hand.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: (This snakebite incident was a journey that I wish to never happen to anyone,
-      as it brings grief and stress to all evolved, but emotionally and financially.)
+  - text: This snakebite incident was a journey that I wish to never happen to anyone,
+      as it brings grief and stress to all evolved, but emotionally and financially.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: (Snakebites has been a common and frequent issue around these parts, and
-      I grew up hearing about its warnings and dangers.)
+  - text: Snakebites has been a common and frequent issue around these parts, and
+      I grew up hearing about its warnings and dangers.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: (However, even with all that, disaster can strike at any time and can happen
-      in but a moment.)
+  - text: However, even with all that, disaster can strike at any time and can happen
+      in but a moment.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: (It's moments like this that makes you treasure what you have, and to hold
-      them dear.)
+  - text: It's moments like this that makes you treasure what you have, and to hold
+      them dear.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: (I have no doubt me and Aye were but one of thousands of patients saved
-      by ASF in regards to snakebite antivenom.)
+  - text: I have no doubt me and Aye were but one of thousands of patients saved
+      by ASF in regards to snakebite antivenom.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: (The antivenom and treatment may be costly, but it works and at the end
-      of the day, Aye is still alive and with me.)
+  - text: The antivenom and treatment may be costly, but it works and at the end
+      of the day, Aye is still alive and with me.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: (Thank you, ASF. I wish you the best in your efforts to help those affected
-      by snakebites.)
+  - text: Thank you, ASF. I wish you the best in your efforts to help those affected
+      by snakebites.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: b71078ab12587cb4cab891c4f536c71c, type: 3}
   nextScene: {fileID: 0}
+  time: 0
+  isTimeVisible: 0

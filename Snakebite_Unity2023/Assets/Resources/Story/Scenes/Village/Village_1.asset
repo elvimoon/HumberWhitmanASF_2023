@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Village_1
   m_EditorClassIdentifier: 
   sentences:
-  - text: The following is a estimated 10-15 minute visual novel experience.
+  - text: This game illustrates the challenges associated with obtaining treatment
+      for snakebite. It will take an estimated 10-15 minutes to complete.
     speaker: {fileID: 11400000, guid: baae7233fb1e42f47a42787920731bd1, type: 2}
     actions: []
     music: {fileID: 8300000, guid: 612a9b20011800547952bda8531b97e0, type: 3}
     sound: {fileID: 0}
-  - text: Please note there will be imagery containing injuries that may not be for
-      the faint of heart.
+  - text: There will be images of snakes, snakebites and injuries.
     speaker: {fileID: 11400000, guid: baae7233fb1e42f47a42787920731bd1, type: 2}
     actions: []
     music: {fileID: 0}
@@ -30,14 +30,20 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: You will be faced with choices throughout the game that will potentially
-      affect the ending of your experience.
+  - text: Choices you make throughout the game will potentially affect the outcome.
     speaker: {fileID: 11400000, guid: baae7233fb1e42f47a42787920731bd1, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: (Dialogue lines contained inside parentheses indicates an internal monologue
-      from the speaker.)
+  - text: Dialogue lines written inside "quotation marks" means the character is
+      speaking out loud, otherwise it is an internal monologue.
+    speaker: {fileID: 11400000, guid: baae7233fb1e42f47a42787920731bd1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: There is a toolbar on the top right that you can click at any point during
+      the game to control volume settings and to open the Codex, a tool offering
+      more detailed information about the area and situation.
     speaker: {fileID: 11400000, guid: baae7233fb1e42f47a42787920731bd1, type: 2}
     actions: []
     music: {fileID: 0}

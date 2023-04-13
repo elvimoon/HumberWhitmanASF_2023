@@ -13,64 +13,58 @@ MonoBehaviour:
   m_Name: Travel_2
   m_EditorClassIdentifier: 
   sentences:
-  - text: (I piggyback carry Aye and quickly rush home to the village)
+  - text: I carry Aye and quickly rush home to the village.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: (Upon seeing the familiar houses and the sea of villagers, i quickly shout
-      for help)
+  - text: Upon seeing the familiar houses and the sea of villagers, I quickly shout
+      for help.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Someone, please help! We need help!
+  - text: '"Someone, please help! We need help!"'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: (My commotion gathers the attention of the nearby villagers, who's questioning
-      glances turns to concern seeing my panicked  and Aye's pained expressions)
+  - text: The nearby villagers run towards us, who's questioning glances turns to
+      concern seeing my panicked  and Aye's pained expressions.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: (My commotion gathers the attention of the nearby villagers, who's questioning
-      glances turns to concern seeing my panicked  and Aye's pained expressions)
-    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Adama?! What happened?! Oh no, little Aye!
+  - text: '"Adama?! What happened?! Oh no, little Aye!"'
     speaker: {fileID: 11400000, guid: 7b1b51df6bf4f5847b8cb9099d5a5685, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: (A familiar voice suddenly shouts out and approaches me, gasping in horror
-      upon seeing Aye)
+  - text: A familiar face approaches and he gasps in horror upon seeing Aye.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: (I sigh in relief upon recognizing my father, the current head of our family,
-      a role model I've looked up to all my life)
+  - text: It's my father, the current head of our family, and a role model I've looked
+      up to all my life.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Baba! Little Aye's been bit by a snake, we need to bring them for treatment!
+  - text: '"<i>Baba</i>! Little Aye''s been bit by a snake, we need to bring them
+      for treatment!"'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: ...tsk. Quickly now, go to the local healer down the hill, I'll inform
-      the rest of the family.
+  - text: '"...tsk. Quickly now, go to the healer down the hill, I''ll inform the
+      rest of the family."'
     speaker: {fileID: 11400000, guid: 2a922bfb9a9ddb84abf5890a3a80205c, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: (I noticed baba hesitated for a brief moment, before instructing me on
-      what to do. I didn't think too much of it, Aye was more important)
+  - text: I noticed <i>baba</i> hesitated for a brief moment, before instructing
+      me on what to do. I didn't think too much of it, Aye was more important.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}

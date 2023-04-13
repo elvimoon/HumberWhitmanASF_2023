@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: TravelChoice_4
   m_EditorClassIdentifier: 
   labels:
-  - text: Yes, please continue.
-    nextScene: {fileID: 11400000, guid: d5e9c716afc6a684799efbe696a87d86, type: 2}
-  - text: No, I forgot my wallet.
-    nextScene: {fileID: 11400000, guid: 2b2ad3bbe8bc0c1429c701b0d3cf8c4a, type: 2}
+  - text: Walk the rest of the way.
+    nextScene: {fileID: 11400000, guid: cf310630d53c6b849aeae8362e7cdc0a, type: 2}
+    summaryScene: {fileID: 0}
+  - text: Take the detour.
+    nextScene: {fileID: 11400000, guid: 69eec52189e6260418c731d75131be71, type: 2}
+    summaryScene: {fileID: 0}

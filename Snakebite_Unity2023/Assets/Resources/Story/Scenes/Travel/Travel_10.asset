@@ -13,30 +13,30 @@ MonoBehaviour:
   m_Name: Travel_10
   m_EditorClassIdentifier: 
   sentences:
-  - text: (We head out of the village, taking the main road at a steady speed in
-      order to avoid having the tires slip on the muddy road .)
+  - text: We head out of the village, taking the main road at a steady speed in order
+      to avoid having the tires slip on the muddy road.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Do you know how long it will take us to arrive at the clinic?
+  - text: '"Do you know how long it will take us to arrive at the clinic?"'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: At our current speed, we should arrive there a bit before the sun begins
-      setting.
+  - text: '"At our current speed, we should arrive there a bit before the sun begins
+      setting."'
     speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Don't worry Adama, we'll make it in time, your little Aye will be fine.
+  - text: '"Don''t worry Adama, we''ll make it in time, your little Aye will be fine."'
     speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: (I take a breath to calm myself hearing the taxi driver's words, yes, everything
-      will be fine.)
+  - text: I take a breath to calm myself hearing the taxi driver's words, yes, everything
+      will be fine.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}

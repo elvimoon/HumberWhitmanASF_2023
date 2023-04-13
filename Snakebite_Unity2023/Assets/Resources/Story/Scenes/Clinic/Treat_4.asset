@@ -13,11 +13,13 @@ MonoBehaviour:
   m_Name: Treat_4
   m_EditorClassIdentifier: 
   sentences:
-  - text: (Though some patients look pained and fatigued, the overall atmosphere
-      was one of professionalism and control, which helped me relax.)
+  - text: Though some patients look pained and fatigued, the overall atmosphere was
+      one of professionalism and control, which helped me relax.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 3eda415c33e3e4445aee0c493115c0e2, type: 3}
   nextScene: {fileID: 11400000, guid: 12a9ce57f0bf7254f87a4654e5f65a8f, type: 2}
+  time: 0
+  isTimeVisible: 0

@@ -13,14 +13,18 @@ MonoBehaviour:
   m_Name: Travel_8
   m_EditorClassIdentifier: 
   sentences:
-  - text: (I wait for nganga to clean and bandage the snakebite and then carry little
-      Aye back to the village, hoping to find a means of transportation.)
+  - text: I wait for <i>nganga<i> to clean and bandage the snakebite and then carry
+      little Aye back to the village, hoping to find a means of transportation.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"Adama is that you? What''s wrong?"'
     speaker: {fileID: 11400000, guid: 7b1b51df6bf4f5847b8cb9099d5a5685, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: a8fcbb41800beec45ac0c89bdd0a279b, type: 3}
   nextScene: {fileID: 11400000, guid: 6a8d396164ae2b14ab662e2a29904c6f, type: 2}
+  time: 0
+  isTimeVisible: 0

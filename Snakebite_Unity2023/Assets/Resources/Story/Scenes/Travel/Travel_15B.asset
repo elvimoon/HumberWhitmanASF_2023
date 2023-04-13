@@ -13,73 +13,20 @@ MonoBehaviour:
   m_Name: Travel_15B
   m_EditorClassIdentifier: 
   sentences:
-  - text: A few hours later, we hear noise ahead and the motorbike slows down.)
+  - text: '"Please take the detour, it''s better than waiting here and Aye doesn''t
+      have that time."'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: (We see a crowd of people and vehicles up ahead, blocking the road.)
+  - text: I make the decision to take the detour. Even though it's a longer path,
+      it's safer than walking and who knows how long it will take for this blockade
+      to sort itself out.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: What's happening? Why are there so many people?
-    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: (A nearby stranger overheard me and answered.)
-    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: It seems a car swerved off the road due to the mud and flipped over. There's
-      an attempt up ahead to try to pull them out of the mud, it'll take a few more
-      hours I reckon. May as well sit tight.
-    speaker: {fileID: 11400000, guid: 1940a617e3310284bbd28e8f9deb474d, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: A few more hours?! I dont...Aye doesn't have that type of time!
-    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: This isn't good, this is the only road leading to the clinic and we're
-      unable to take any detours.
-    speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: (We don't have time to wait for the roads to clear, I steel myself, determine
-      to carry Aye the rest of the way on foot if need be.)
-    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: How much further is the village?
-    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: About another hour of driving I'd say, you're not thinking of walking?!
-    speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: Yes, I'm afraid I must. Thank you for driving us this far out, I'll trek
-      the rest of the way on foot.
-    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: (I piggyback carry Aye once more, thank the taxi driver, and begin to steadily
-      walk the remaining distance to the village.)
-    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  background: {fileID: 21300000, guid: f1fb0ceadfea69e4a8b87d37b286c487, type: 3}
-  nextScene: {fileID: 11400000, guid: d7f64b07eab14024089056a38a688487, type: 2}
-  time: 2
+  background: {fileID: 21300000, guid: e1e596673de328446b3216fce63c96e5, type: 3}
+  nextScene: {fileID: 11400000, guid: f2e023b6eff53dd40836e24e7e85c4d1, type: 2}
+  time: 6
   isTimeVisible: 0

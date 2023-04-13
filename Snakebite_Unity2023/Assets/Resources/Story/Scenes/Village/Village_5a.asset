@@ -13,47 +13,82 @@ MonoBehaviour:
   m_Name: Village_5a
   m_EditorClassIdentifier: 
   sentences:
-  - text: (I decide to drop by our neighbor's house before heading to the farm to
-      check if Aye is there and to say hello.)
+  - text: I decide to drop by our neighbor's house before heading to the farm to
+      check if Aye is there and to say hello.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-  - text: (I see Aye chatting with the neighbor by the front door, and I approach
-      the pair.)
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I see Aye chatting with the neighbor by the front door, and I approach
+      the pair.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-  - text: There you are, Aye. I hope you weren't troubling our neighbor this morning.
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"There you are, Aye! I hope you weren''t troubling our neighbor. Sir!
+      <i>Tana mu xi? </i> How''s your hand been treating you?" '
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-  - text: Good morning, Sir. I hope you're doing well. How's your hand been treating
-      you?
-    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-  - text: Of course not, I haven't caused any trouble at all. Isn't that right Sir?
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Of course not, I haven''t caused any trouble at all. Isn''t that right
+      Sir?"'
     speaker: {fileID: 11400000, guid: cfab85cd0782ca949a1254c2e086c717, type: 2}
-  - text: Haha that's right, little Aye has just been checking to see how I'm doing.
-      A good morning to you too, Adama.
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Haha that''s right, little Aye has just been checking to see how I''m
+      doing. A good morning to you too, Adama. <i>Tana yo mu xi."</i>'
     speaker: {fileID: 11400000, guid: 8669be0c372de4144a9b863ed6a60f86, type: 2}
-  - text: (Our neighbor is someone I've interacted with all my life. Two decades
-      older than I, he unfortunately suffered a snakebite injury on his hand last
-      year, and though treated through great expense, it left him with permanent
-      injuries that continues to pain him to this day.)
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I've known our neighbor all my life. He suffered a snakebite injury on
+      his hand last year. Even though he received treatment, he still experiences
+      pain every day.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-  - text: (He stays at home nowadays, helping out around the house doing his best
-      not to inconvenience the rest of his family. I'm sure it must have been tough
-      for him; his family faced near bankruptcy by exchanging a majority of their
-      livestock to afford the snakebite antivenom and treatment.)
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: His family sold almost all their livestock to afford the snakebite antivenom
+      and treatment. He stays at home nowadays, helping out around the house and
+      doing his best not to inconvenience the rest of his family.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-  - text: (I'm sure he must have felt great shame and guilt, but I wish him all the
-      best. He always treated me and my family warmly.)
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I wonder if he feels shame and guilt. But I wish him all the best. He always
+      treats me and my family warmly.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-  - text: That's good to hear, Sir. Everyone was worried and shocked when they learned
-      of your situation.
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"That''s good to hear, Sir. Everyone was worried and shocked when they
+      learned of your situation."'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-  - text: Yes, well, that's life I suppose. Snakes bite people, and people die. I
-      suppose I can count myself lucky for still being alive.
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Yes, well, that''s life I suppose. Snakes bite people, and people die.
+      I suppose I can count myself lucky for still being alive."'
     speaker: {fileID: 11400000, guid: 8669be0c372de4144a9b863ed6a60f86, type: 2}
-  - text: Just a word of advice, always be cautious when you're out and about, you
-      hear? Snakes can easily blend in with their surroundings. I would hate for
-      anything to happen to you and your family.
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Just a word of advice, always be cautious when you''re out and about,
+      you hear? Snakes can easily blend in with their surroundings. I would hate
+      for anything to happen to you and your family."'
     speaker: {fileID: 11400000, guid: 8669be0c372de4144a9b863ed6a60f86, type: 2}
-  - text: Thank you, Sir. I'll remember your advice. I must be heading off to the
-      farm now, have a good day. Aye, be a good child, I'll see you later.
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Thank you, Sir. I''ll remember your advice. I must be heading off to
+      the farm now, have a good day. Aye, be a good child, I''ll see you later."'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   background: {fileID: 21300000, guid: 84271febdc635a34a85b077fd3e3ddb6, type: 3}
   nextScene: {fileID: 11400000, guid: f25346745c65dda41bc69aab784d73ba, type: 2}
+  time: 0
+  isTimeVisible: 0

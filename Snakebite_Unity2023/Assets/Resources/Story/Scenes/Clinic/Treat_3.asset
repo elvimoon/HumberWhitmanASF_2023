@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: Treat_3
   m_EditorClassIdentifier: 
   sentences:
-  - text: (I notice some individuals have injuries on the arms, others on their legs.)
+  - text: I notice some individuals have injuries on the arms, others on their legs.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 0ad79a01a361c7b4ea7ba72123942dd7, type: 3}
   nextScene: {fileID: 11400000, guid: e31158bc79b305c469dcaac93cc12137, type: 2}
+  time: 0
+  isTimeVisible: 0

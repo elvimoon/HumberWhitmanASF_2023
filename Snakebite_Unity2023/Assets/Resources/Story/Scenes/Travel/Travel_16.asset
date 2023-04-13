@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89a7bebd0bbf27a4ca54d1561e381236, type: 3}
-  m_Name: Travel_16A
+  m_Name: Travel_16
   m_EditorClassIdentifier: 
   sentences:
-  - text: (A while later as the sun begins to set, I see the village in sight and
-      hurry my steps.)
+  - text: A while later as the sun begins to set, I see the village in sight and
+      hurry my steps.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: (I approach the nearest villager and enquire for the location of the snakebite
-      clinic, thanking them as I hurry.)
+  - text: I approach the nearest villager and enquire for the location of the snakebite
+      clinic, thanking them as I hurry.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: (The journey must have been tough for Aye, I can hear their breathing getting
-      more and more ragged as time passed.)
+  - text: The journey must have been tough for Aye, I can hear their breathing getting
+      more and more ragged as time passed.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
