@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Graphic Design Team
+  m_text: Graphic Design Team (Humber)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -406,7 +406,7 @@ GameObject:
   - component: {fileID: 435703584}
   - component: {fileID: 435703582}
   m_Layer: 5
-  m_Name: Body
+  m_Name: BodyUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -427,10 +427,10 @@ RectTransform:
   m_Father: {fileID: 1779002617}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -210}
-  m_SizeDelta: {x: 675, y: 300}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -50, y: -653}
+  m_SizeDelta: {x: 675, y: 1250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &435703582
 MonoBehaviour:
@@ -452,10 +452,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<link=https://www.freepik.com/free-vector/circle-buttons-with-wooden-texture-icons_27368299.htm#&position=3&from_view=undefined><u><color=white>Circle
-    buttons by upklyak </color></u></link> on Freepik.com
-
-'
+  m_text: "<link=https://www.freepik.com/free-vector/circle-buttons-with-wooden-texture-icons_27368299.htm#&position=3&from_view=undefined><u><color=white>Circle
+    buttons by upklyak </color></u></link> on Freepik\n\n <link=https://www.freepik.com/free-vector/wooden-game-buttons-banners_12620557.htm#&position=7&from_view=undefined><u><color=white>Wooden
+    banners by upklyak </color></u></link> on Freepik\n\n<link=https://www.freepik.com/free-vector/wooden-buttons-ui-game_12632833.htm#&position=11&from_view=undefined><u><color=white>Wooden
+    sliders by upklyak </color></u></link> on Freepik\n\n<link=https://www.freepik.com/free-vector/wooden-buttons-boards-ui-game-gui-elements-isolated-white_12875297.htm><u><color=white>Wooden
+    buttons by upklyak </color></u></link> on Freepik\n\n<link=https://www.freepik.com/free-vector/wooden-game-buttons-cartoon-menu-interface-made-wood-textured-boards_12760337.htm><u><color=white>Wooden
+    buttons and banners by upklyak </color></u></link> on Freepik\n\n<link=https://www.freepik.com/free-vector/blank-wooden-signs-cartoon-set-isolated-white_32491259.htm><u><color=white>Wooden
+    signs by upklyak </color></u></link> on Freepik\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -575,7 +578,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1948736568}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -764,6 +767,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482968713}
   m_CullTransparentMesh: 1
+--- !u!1 &655751640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 655751641}
+  - component: {fileID: 655751643}
+  - component: {fileID: 655751642}
+  m_Layer: 5
+  m_Name: WhitmanLogo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &655751641
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655751640}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1948736568}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -600, y: -200}
+  m_SizeDelta: {x: 400, y: 400}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &655751642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655751640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e0e1e86b702d25c4bb4b5dc6acd8704a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &655751643
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655751640}
+  m_CullTransparentMesh: 1
 --- !u!1 &668407705
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,11 +950,11 @@ RectTransform:
   - {fileID: 1830597523}
   - {fileID: 1512135473}
   m_Father: {fileID: 1409206325}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 350, y: -1084}
+  m_AnchoredPosition: {x: 350, y: -593}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1188904829
@@ -911,7 +990,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1948736568}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1123,10 +1202,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Development Team
-
-
-'
+  m_text: Game Team (Humber)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -1233,17 +1309,17 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1498615024}
   - {fileID: 2090923796}
   - {fileID: 926350197}
   - {fileID: 1509664221}
+  - {fileID: 1498615024}
   - {fileID: 1779002617}
   m_Father: {fileID: 1948736568}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: -400}
+  m_AnchoredPosition: {x: 0, y: -300}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1409206326
@@ -1427,7 +1503,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1498615024}
   m_Layer: 5
-  m_Name: SnakebiteFoundation
+  m_Name: Thanks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1448,11 +1524,11 @@ RectTransform:
   - {fileID: 1505665528}
   - {fileID: 1575959252}
   m_Father: {fileID: 1409206325}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 350, y: 0}
+  m_AnchoredPosition: {x: 350, y: -1816}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1505665527
@@ -1491,7 +1567,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 675, y: 200}
+  m_SizeDelta: {x: 675, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1505665529
 MonoBehaviour:
@@ -1513,7 +1589,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Snakebite Foundation
+  m_text: 'Thanks to:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -1621,11 +1697,11 @@ RectTransform:
   - {fileID: 33187005}
   - {fileID: 1557507623}
   m_Father: {fileID: 1409206325}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 350, y: -1597}
+  m_AnchoredPosition: {x: 350, y: -1227}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1512135472
@@ -1663,7 +1739,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -160}
+  m_AnchoredPosition: {x: 0, y: -256}
   m_SizeDelta: {x: 675, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1512135474
@@ -1686,11 +1762,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Annick
+  m_text: 'Annick Adams
 
-    Holly
+    Tasha Hall
 
-    Tasha'
+    Holly Hermanson'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -1825,7 +1901,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Daniela\nIsiah \nLauren\nOmar"
+  m_text: 'Daniela Arellano
+
+    Omar Garcia
+
+    Lauren Gawlik
+
+    Isaiah Romano'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -1937,7 +2019,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -180}
+  m_AnchoredPosition: {x: 0, y: -141}
   m_SizeDelta: {x: 675, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1575959253
@@ -1960,9 +2042,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Nick
+  m_text: 'Jordan Benjamin, NRP, FAWM
 
-    Tuhin Giri'
+    Nick Brandehoff, MD
+
+    Tuhin Giri, PhD'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -2141,7 +2225,7 @@ RectTransform:
   m_Children:
   - {fileID: 1462969871}
   m_Father: {fileID: 1948736568}
-  m_RootOrder: 2
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -2289,7 +2373,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 350, y: -2137}
+  m_AnchoredPosition: {x: 350, y: -2360}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1830597522
@@ -2350,7 +2434,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Biology Team
+  m_text: Biology Team (Whitman)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -2605,9 +2689,10 @@ RectTransform:
   m_Children:
   - {fileID: 668407706}
   - {fileID: 1280746354}
-  - {fileID: 1681946099}
-  - {fileID: 1409206325}
   - {fileID: 453940021}
+  - {fileID: 655751641}
+  - {fileID: 1409206325}
+  - {fileID: 1681946099}
   - {fileID: 1188904830}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -2648,10 +2733,10 @@ RectTransform:
   - {fileID: 1313135657}
   - {fileID: 482968714}
   m_Father: {fileID: 1409206325}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 350, y: -490}
+  m_AnchoredPosition: {x: 350, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
