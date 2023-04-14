@@ -50,11 +50,12 @@ public class BottomBarController : MonoBehaviour
     }
 
     //function to show the bottombar via anim
-    public void Show()
+    public void Show(float speed_ = 1.0f)
     {
         if (isHidden)
         {
             animator.SetTrigger("Show");
+            animator.speed = speed_;
             isHidden = false;
         }
     }
@@ -68,30 +69,31 @@ public class BottomBarController : MonoBehaviour
         personNameText.color = scene.sentences[0].speaker.textColor;
     }
 
-    public void Resize(TextScene scene)
+    public void SetAutoFontSize(bool a)
     {
-        string temp = barText.text;
-        barText.text = scene.sentences[0].text;
-        GetComponent<RectTransform>().sizeDelta =
-                new Vector2(GetComponent<RectTransform>().sizeDelta.x,
-                barText.GetPreferredValues().y + 30);
-        Debug.Log(barText.GetPreferredValues().y);
-        barText.text = temp;
+        barText.enableAutoSizing = a;
     }
 
     public void ResizeText(TextScene scene)
     {
-        barText.autoSizeTextContainer = true;
         string temp = barText.text;
+        barText.enableAutoSizing = true;
         barText.text = scene.sentences[0].text;
+        barText.ForceMeshUpdate();
         float size = barText.fontSize;
-        barText.autoSizeTextContainer = false;
+        barText.enableAutoSizing = false;
         barText.fontSize = size;
-        Debug.Log(size);
         barText.text = temp;
     }
 
-    public void PrintEverything(TextScene scene)
+    public void PrintAll(TextScene scene)
+    {
+        barText.enableAutoSizing = true;
+        barText.text = scene.sentences[0].text;
+        state = State.COMPLETED;
+    }
+
+    public void FastForwardText(TextScene scene)
     {
         StopAllCoroutines();
         barText.text = scene.sentences[sentenceIndex].text;
@@ -135,7 +137,14 @@ public class BottomBarController : MonoBehaviour
         int wordIndex = 0;
         while (state != State.COMPLETED)
         {
-            barText.text += text[wordIndex];
+            if (text[wordIndex] == '<')
+            {
+                barText.text += "<br>";
+                wordIndex += 3;
+            }
+            else
+                barText.text += text[wordIndex];
+            
             yield return new WaitForSeconds(0.02f);
 
             if (++wordIndex == text.Length)

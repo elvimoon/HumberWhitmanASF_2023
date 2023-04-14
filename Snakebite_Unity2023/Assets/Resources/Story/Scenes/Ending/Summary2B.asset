@@ -10,12 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 004610d518b7bc845b9d7e3da32c9c95, type: 3}
-  m_Name: Summary1
+  m_Name: Summary2B
   m_EditorClassIdentifier: 
   sentences:
-  - text: The terms 'poisonous' and 'venomous' are often brought up and is a source
-      of confusion and debate.
+  - text: You told the driver that the snake bit Aye on the ankle.<br><br>The majority
+      of snakebites occur on the hands, ankles and feet.<br><br>Most bites occur
+      in these spots because subsistence farmers do a lot of manual labor and often
+      encounter snakes in vegetation as a result.<br><br>
     speaker: {fileID: 11400000, guid: 3261d5c9b2fe248459a2c5934c5bc5c0, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: c74fc6aba57fd824c8524c04a7f24c5d, type: 3}

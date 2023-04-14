@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 004610d518b7bc845b9d7e3da32c9c95, type: 3}
+  m_Name: Summary1A
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: You told the driver that the snake was poisonous.<br><br>The terms 'poisonous'
+      and 'venomous' are often brought up and is a source of confusion and debate.<br><br>The
+      terms 'venomous' is applied to organisms that bite or sting to inject their
+      toxins. The term 'poisonous' is applied to organisms that unload their toxins
+      when eaten.<br><br>In the case of snakes, remember that some snakes would be
+      considered venomous, and never poisonous.
+    speaker: {fileID: 11400000, guid: 3261d5c9b2fe248459a2c5934c5bc5c0, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: c74fc6aba57fd824c8524c04a7f24c5d, type: 3}
