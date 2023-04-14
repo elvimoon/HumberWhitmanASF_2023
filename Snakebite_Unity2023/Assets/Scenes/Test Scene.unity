@@ -1282,7 +1282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f383c943185da74397f17d01ef31272, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentScene: {fileID: 11400000, guid: f8ee90c197f27624d96e18981296129e, type: 2}
+  currentScene: {fileID: 11400000, guid: daeb84e2184359349bcc945dfee28403, type: 2}
   dScene: {fileID: 11400000, guid: 5f01cc591252aaa4184465a05851053d, type: 2}
   rScene: {fileID: 11400000, guid: 3713407e95f4f96408ca2f43a2b4b66e, type: 2}
   bottomBarController: {fileID: 193512412}

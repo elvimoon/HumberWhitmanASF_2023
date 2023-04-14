@@ -14,3 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: Father
   textColor: {r: 1, g: 0.57323563, b: 0, a: 0}
+  sprites:
+  - {fileID: 21300000, guid: c3d1be93541641748bd6ffad865472b2, type: 3}
+  prefab: {fileID: -2532526778574787626, guid: b927eb152cfc27c44a8e62e31d8f12f8, type: 3}

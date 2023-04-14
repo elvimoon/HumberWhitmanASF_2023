@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: ASF Doctor
   textColor: {r: 0, g: 0, b: 0, a: 0}
-  sprites: []
-  prefab: {fileID: 0}
+  sprites:
+  - {fileID: 21300000, guid: 0edbc2dadfe9c384992dd08c9a7169f1, type: 3}
+  prefab: {fileID: -2532526778574787626, guid: b105ae4bd82a6dc43b2747a5699636a6, type: 3}
