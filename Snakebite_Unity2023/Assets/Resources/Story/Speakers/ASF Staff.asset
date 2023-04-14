@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: ASF Staff
   textColor: {r: 0.6800492, g: 0.8962264, b: 0.097232126, a: 0}
-  sprites: []
-  prefab: {fileID: 0}
+  sprites:
+  - {fileID: 21300000, guid: 2892cfa244b6ad24c8787538eb868ff6, type: 3}
+  prefab: {fileID: -2532526778574787626, guid: 0cf48da4612b688478d6680994076d01, type: 3}

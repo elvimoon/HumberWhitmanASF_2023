@@ -14,3 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: Healer
   textColor: {r: 0, g: 1, b: 0.025779486, a: 0}
+  sprites:
+  - {fileID: 21300000, guid: fbfd30095e73b5b4380198737aa66485, type: 3}
+  prefab: {fileID: -2532526778574787626, guid: 3680fa8e414ab6947aad1d077c014d3d, type: 3}
