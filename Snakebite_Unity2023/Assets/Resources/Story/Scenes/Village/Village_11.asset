@@ -13,19 +13,17 @@ MonoBehaviour:
   m_Name: Village_11
   m_EditorClassIdentifier: 
   sentences:
-  - text: (Aye finally notices and hurriedly steps back, but it is too late. The
-      snake lunges forward.)
+  - text: I watch in horror as the snake bites down with it's jaws and Aye collapses.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: (I watch in horror as the snake bites down with it's jaws and Aye collapses
-      on the floor, crying out in pain.)
-    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    music: {fileID: 0}
-    sound: {fileID: 0}
-  - text: AAAAAAAAHHHHH!!!!!!
+  - text: '"AAAAAAAAHHHHH!!!!!!"'
     speaker: {fileID: 11400000, guid: cfab85cd0782ca949a1254c2e086c717, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 1aa300bbf3d5605419e2441f989cab76, type: 3}
   nextScene: {fileID: 11400000, guid: 961bce60fc5d4c5448b5e5e90c34bb3d, type: 2}
+  time: 0
+  isTimeVisible: 0

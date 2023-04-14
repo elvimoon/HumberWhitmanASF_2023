@@ -13,21 +13,21 @@ MonoBehaviour:
   m_Name: Village_4
   m_EditorClassIdentifier: 
   sentences:
-  - text: (I step outside the hut and see the village bustling with activity. People
-      are going about their daily routines even though it is so early.)
+  - text: The vollage is bustling with activity. People are going about their daily
+      routines even though it is so early.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: (I see women carrying buckets from the nearby river, and children laughing
-      and running around playing games.)
+  - text: Women are carrying buckets of water from the nearby river, and I hear children's
+      laughter.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I don't see my little Aye with those children, I still have some time,
+  - text: '"I don''t see my little Aye with those children, I still have some time,
       perhaps I should go check if Aye is with the neighbors before tending to the
-      farm...
+      farm..."'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}

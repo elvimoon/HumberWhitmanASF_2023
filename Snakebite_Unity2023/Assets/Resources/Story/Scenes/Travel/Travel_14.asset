@@ -13,9 +13,56 @@ MonoBehaviour:
   m_Name: Travel_14
   m_EditorClassIdentifier: 
   sentences:
-  - text: Can you afford the antivenom?
-    speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+  - text: A few hours later, we hear noise ahead and the motorbike slows down.)
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 9ddbea88ce8faf846824cd6a85adba6f, type: 3}
+  - text: We see a crowd of people and vehicles up ahead, blocking the road.
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"What''s happening? Why are there so many people?"'
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: A nearby stranger overheard me and answered.
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"It seems a car swerved off the road due to the mud and flipped over.
+      There''s an attempt up ahead to try to pull them out of the mud, it''ll take
+      a few more hours I reckon. May as well sit tight."'
+    speaker: {fileID: 11400000, guid: 1940a617e3310284bbd28e8f9deb474d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"A few more hours?! I dont...Aye doesn''t have that type of time!"'
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Is there a detour or another route we can take?"'
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"There is another side route, but it would loop around towards another
+      village, and would take us a few hours to arrive at the clinic."'
+    speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: We don't have time to wait for the roads to clear, I could carry Aye the
+      rest of the way, but that might not be safe...what should I do?
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: f1fb0ceadfea69e4a8b87d37b286c487, type: 3}
   nextScene: {fileID: 11400000, guid: 81d8964eaaf191040b15d6425b055cd3, type: 2}
+  time: 2
+  isTimeVisible: 0

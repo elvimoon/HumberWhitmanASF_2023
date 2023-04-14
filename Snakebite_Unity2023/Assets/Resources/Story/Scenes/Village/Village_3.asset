@@ -13,14 +13,13 @@ MonoBehaviour:
   m_Name: Village_3
   m_EditorClassIdentifier: 
   sentences:
-  - text: (I quickly freshen up and head to the living room, but I don't hear anyone
-      else in the house.)
+  - text: I quickly freshen up and head to the living room, but I don't hear anyone
+      else in the house.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: It seems everyone has already left, even my child little Aye. I should
-      hurry too.
+  - text: Everyone has already left, including little Aye.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}

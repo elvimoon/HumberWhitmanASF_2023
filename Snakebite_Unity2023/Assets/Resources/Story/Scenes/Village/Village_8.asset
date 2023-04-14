@@ -13,16 +13,30 @@ MonoBehaviour:
   m_Name: Village_8
   m_EditorClassIdentifier: 
   sentences:
-  - text: (I finally arrive at the farm after a while, and gaze fondly at our family's
-      crops and animals.)
+  - text: I finally arrive at the farm and gaze fondly at our family's crops and
+      animals.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-  - text: (I spend the next few hours laboring over tasks to care for the crops and
-      animals, until I hear my name being called out by a familiar voice.)
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I spend the next few hours laboring over tasks to care for the crops and
+      animals, until I hear my name being called out by a familiar voice.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-  - text: Adama! It's almost lunch time, I've come to pick you up. Quick, quick,
-      let's go back home I'm hungry!
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"It''s almost lunch time. Quick, quick, let''s go back home I''m hungry!"'
     speaker: {fileID: 11400000, guid: cfab85cd0782ca949a1254c2e086c717, type: 2}
-  - text: Good afternoon my little Aye. Thanks for coming, yes let's head back home.
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"<i>I fenyan</i> my little Aye. Thanks for coming--yes let''s head back
+      home."'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
   background: {fileID: 21300000, guid: 3a90f47f4a34b3841988ccc0f6f3c821, type: 3}
   nextScene: {fileID: 11400000, guid: dad3701271ce5fa4b9fb73cceabfac5b, type: 2}
+  time: 0
+  isTimeVisible: 0

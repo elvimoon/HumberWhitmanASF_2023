@@ -13,36 +13,38 @@ MonoBehaviour:
   m_Name: Travel_11
   m_EditorClassIdentifier: 
   sentences:
-  - text: '*heavy breathing*....A-Adama...'
+  - text: '"<i>*heavy breathing*</i>....A-Adama..."'
     speaker: {fileID: 11400000, guid: cfab85cd0782ca949a1254c2e086c717, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: (Aye feebly calls to me and I hug them close, checking what's wrong)
+  - text: Aye feebly calls to me and I hug them close, checking what's wrong.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: What is it, little one? What's wrong?
+  - text: '"What is it, little one? What''s wrong?"'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I feel dizzy....and it hurts....
+  - text: '"I feel dizzy....and it hurts...."'
     speaker: {fileID: 11400000, guid: cfab85cd0782ca949a1254c2e086c717, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: (Dizziness is a sign that the symptoms are worsening...)
+  - text: Dizziness is a sign that the symptoms are worsening...
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Close your eyes, little one. We'll be at the clinic soon, everything will
-      be ok
+  - text: '"Close your eyes, little one. We''ll be at the clinic soon, everything
+      will be ok."'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: e1e596673de328446b3216fce63c96e5, type: 3}
   nextScene: {fileID: 11400000, guid: f2bd16a6775839e4093d08b63cd5c10d, type: 2}
+  time: 0
+  isTimeVisible: 0

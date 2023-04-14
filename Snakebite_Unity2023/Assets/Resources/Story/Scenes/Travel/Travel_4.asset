@@ -13,63 +13,77 @@ MonoBehaviour:
   m_Name: Travel_4
   m_EditorClassIdentifier: 
   sentences:
-  - text: (I bring Aye inside and lay them down on a bed, staring worriedly as the
-      healer assesses Aye's condition)
+  - text: I bring Aye inside and lay them down on a bed, staring worriedly as the
+      healer assesses Aye's condition.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: (It has already been about an hour since the bite and while Aye is still
-      conscious, I notice a visible amount of sweating along with a pale face.)
+  - text: It has already been about an hour since the bite and while Aye is still
+      conscious, I notice a visible amount of sweating along with a pale face.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Nganga, how is Aye, can you do anything?
+  - text: '"<i>Nganga</i>, how is Aye, can you do anything?"'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: tsk, calm yourself Adama. Cuts and broken bones, I can easily help with,
-      but snakebites are different. I can clean and bandage a wound, but I don't
-      use Antivenom here.
+  - text: '"Tsk, calm yourself Adama. Cuts and broken bones, I can easily help with,
+      but snakebites are different. I can clean and bandage a wound, but I don''t
+      use Antivenom here."'
     speaker: {fileID: 11400000, guid: 2597bc636f4f9b843b0c91bf8c4522e5, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Please do what you can then, nganga.
+  - text: '"Please do what you can then, <i>nganga</i>."'
     speaker: {fileID: 11400000, guid: 2a922bfb9a9ddb84abf5890a3a80205c, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: (My father suddenly enters the hut and instructs the healer to try to treat
-      Aye.)
+  - text: My father suddenly enters the hut and instructs the healer to try to treat
+      Aye.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Baba! Nganga doesn't have or use antivenom, we need to bring Aye to a snakebite
-      clinic instead!
+  - text: '"Baba! <i>Nganga</i> doesn''t use antivenom, we need to bring Aye to a
+      snakebite clinic instead!"'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"...listen to me Adama. The clinic is another village travel''s away,
       and there is no guarantee they can also help Aye."'
     speaker: {fileID: 11400000, guid: 2a922bfb9a9ddb84abf5890a3a80205c, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: B-Baba? What are you saying?
+  - text: '"B-Baba? What are you saying?"'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: Adama listen to me I'm being realistic. The price of antivenom is very
-      expensive, almost an entire month's worth of our family's earnings. This also
-      doesn't include the cost of rehabilitation afterwards.
+  - text: '"Adama listen to me I''m being realistic. The price of antivenom is very
+      expensive, almost an entire month''s worth of our family''s earnings. This
+      also doesn''t include the cost of rehabilitation afterwards."'
     speaker: {fileID: 11400000, guid: 2a922bfb9a9ddb84abf5890a3a80205c, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: We'll have Nganga do what they can for Aye, but we must also think of the
-      rest of our family.
+  - text: '"We''ll have <i>nganga</i> do what they can for Aye, but we must also
+      think of the rest of our family."'
     speaker: {fileID: 11400000, guid: 2a922bfb9a9ddb84abf5890a3a80205c, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: I...I must think, baba..
+  - text: '"I...I must think, <i>baba</i>.."'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 0067d1df464873e40bc35395483f0bf8, type: 3}
   nextScene: {fileID: 11400000, guid: 235c17bd01d0545499de0bbf4e8e43bf, type: 2}
+  time: 0
+  isTimeVisible: 0

@@ -13,20 +13,18 @@ MonoBehaviour:
   m_Name: Village_2
   m_EditorClassIdentifier: 
   sentences:
-  - text: (I open my eyes and sit up, taking in my surroundings. The familiar bedroom
-      furnished with a wooden table and a bed.)
+  - text: I wake up and take in my surroundings. My familiar bedroom, furnished with
+      a wodden table and a bed.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: (I look out the window and see the sun is just starting to rise over the
-      horizon.)
+  - text: The sun is just starting to rise over the horizon.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: (It is still early in the morning, but I must begin to prepare to tend
-      to the farms.)
+  - text: It's early in the morning, but I have to tend to the crops.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
