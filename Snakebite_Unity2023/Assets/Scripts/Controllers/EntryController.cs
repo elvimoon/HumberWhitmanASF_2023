@@ -6,6 +6,8 @@ using TMPro;
 
 public class EntryController : MonoBehaviour
 {
+    public enum EntryCat { Category1, Category2, Category3, Category4 };
+    public EntryCat entryCat;
 
     public GameObject[] entries;
 
@@ -18,7 +20,23 @@ public class EntryController : MonoBehaviour
     {
 
         codexMenu = GameObject.FindGameObjectWithTag("Codex Menu");
-        entries = GameObject.FindGameObjectsWithTag("Entry");
+
+        if (entryCat == EntryCat.Category1)
+        {
+            entries = GameObject.FindGameObjectsWithTag("Entry1");
+        }
+        else if (entryCat == EntryCat.Category2)
+        {
+            entries = GameObject.FindGameObjectsWithTag("Entry2");
+        }
+        else if(entryCat == EntryCat.Category3)
+        {
+            entries = GameObject.FindGameObjectsWithTag("Entry3");
+        }
+        else if(entryCat == EntryCat.Category4)
+        {
+            entries = GameObject.FindGameObjectsWithTag("Entry4");
+        }
 
         currentEntry = 0;
     }
