@@ -16,7 +16,7 @@ MonoBehaviour:
   - text: 1 month later.
     speaker: {fileID: 11400000, guid: 3261d5c9b2fe248459a2c5934c5bc5c0, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: 612a9b20011800547952bda8531b97e0, type: 3}
     sound: {fileID: 0}
   - text: I wake up to another morning, and ready myself for work once again.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
@@ -29,8 +29,8 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: However the untreated venom became a serious issue. We were informed by
-      nganga that it caused necrosis to spread and cause skin and muscle damage down
-      to the bone. We had no choice to amputate Aye's leg.
+      <i>nganga</i> that it caused necrosis to spread and cause skin and muscle damage
+      down to the bone. We had no choice to amputate Aye's leg.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
@@ -44,6 +44,6 @@ MonoBehaviour:
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 762fd4898dbe006489ca7e9dc50226fc, type: 3}
-  nextScene: {fileID: 11400000, guid: 3713407e95f4f96408ca2f43a2b4b66e, type: 2}
+  nextScene: {fileID: 0}
   time: 0
   isTimeVisible: 0

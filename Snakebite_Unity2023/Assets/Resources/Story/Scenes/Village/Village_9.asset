@@ -68,7 +68,7 @@ MonoBehaviour:
       drip down my back.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: d805590c4583251419b3487533a52cbf, type: 3}
     sound: {fileID: 0}
   - text: '"Come on! We''ll miss lunch at this rate!"'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}

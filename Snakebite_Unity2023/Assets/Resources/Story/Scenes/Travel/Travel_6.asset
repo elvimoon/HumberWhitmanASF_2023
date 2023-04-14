@@ -18,9 +18,9 @@ MonoBehaviour:
       and we will always stay with and support them.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: 919b67a407ad6b84884f3f5ac902fdd4, type: 3}
     sound: {fileID: 0}
-  - text: I head back inside and notify baba of my decision.
+  - text: I head back inside and notify <i>baba</i> of my decision.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}

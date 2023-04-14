@@ -13,12 +13,6 @@ MonoBehaviour:
   m_Name: Treat_8
   m_EditorClassIdentifier: 
   sentences:
-  - text: Aye and I walk out of the clinic and slowly walk to the village exit in
-      search for a taxi hand in hand.
-    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
   - text: This snakebite incident was a journey that I wish to never happen to anyone,
       as it brings grief and stress to all evolved, but emotionally and financially.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}

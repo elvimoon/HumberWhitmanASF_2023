@@ -61,6 +61,8 @@ public class FactMenuController : MonoBehaviour
                 print("Debug - " + this.gameObject.GetComponent<MonoBehaviour>() + ": Fact menu closed");
             }
             menuOn = false;
+            gameObject.SetActive(false);
+            menuBody.SetActive(false);
         }
         else
         {
@@ -71,6 +73,8 @@ public class FactMenuController : MonoBehaviour
             menuOn = true;
             ShowCategory(currentCategory);
             buttonCategories[currentCategory].GetComponent<Button>().Select();
+            gameObject.SetActive(true);
+            menuBody.SetActive(true);
         }
     }
 

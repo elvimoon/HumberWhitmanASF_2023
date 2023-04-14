@@ -28,18 +28,33 @@ MonoBehaviour:
       I would hate to be stuck here in the open, especially with all the recent sightings
       of snakes in the area."'
     speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"No worries at all. What is this about snakes in the area?"'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"That''s right, there were reports of snakes  close to the village recently.
       "'
     speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"Watch where you step, snakes can easily blend in with their environment
@@ -50,7 +65,12 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: '"I''ll keep this in mind, thank you."'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I make a mental note to pass this warning to the rest of the family and
@@ -60,7 +80,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 4e017a0ff8296af4fab816cf260dbeff, type: 3}
+  background: {fileID: 21300000, guid: 76cb498220ae2694eb5e81963e6812b0, type: 3}
   nextScene: {fileID: 11400000, guid: a81340ae48128c9428d6bb8f0112c5b4, type: 2}
   time: 0
   isTimeVisible: 0

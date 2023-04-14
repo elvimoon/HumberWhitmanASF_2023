@@ -22,18 +22,33 @@ MonoBehaviour:
   - text: '"By the way, Adama and little Aye, do you remember any details about the
       snake?"'
     speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"Why do you ask?"'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"I''ve heard that providing details to the doctors at the clinic will
       help them in determining the correct antivenom to use."'
     speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"It can''t hurt to recall the details, let''s see..."'
@@ -41,9 +56,14 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: '"What type of toxins do you think the snake injected Aye with ?"'
+  - text: '"What type of toxins do you think the snake injected Aye with?"'
     speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 9ddbea88ce8faf846824cd6a85adba6f, type: 3}

@@ -769,7 +769,6 @@ GameObject:
   - component: {fileID: 193512410}
   - component: {fileID: 193512412}
   - component: {fileID: 193512413}
-  - component: {fileID: 193512414}
   m_Layer: 5
   m_Name: BottomBar
   m_TagString: Untagged
@@ -813,7 +812,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.16037738, g: 0.16037738, b: 0.16037738, a: 0}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -873,18 +872,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &193512414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 193512408}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb3de7685644679479ce13b021ffc543, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &203063226
 GameObject:
   m_ObjectHideFlags: 0
@@ -1040,7 +1027,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1327676819}
   m_HandleRect: {fileID: 1327676818}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 1.0000001
   m_Size: 0.52666664
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1330,7 +1317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f383c943185da74397f17d01ef31272, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentScene: {fileID: 11400000, guid: 0a3c2fe2b03522c4ab31df35b3243a03, type: 2}
+  currentScene: {fileID: 11400000, guid: daeb84e2184359349bcc945dfee28403, type: 2}
   bottomBarController: {fileID: 193512412}
   backgroundController: {fileID: 1885585717}
   chooseController: {fileID: 1262682652}
@@ -1343,7 +1330,6 @@ MonoBehaviour:
   timeText: {fileID: 1194791023}
   levelTransition: {fileID: 1272775532}
   creditsScene: CreditsScene
-  isMenuOpen: 0
 --- !u!114 &218256375
 MonoBehaviour:
   m_ObjectHideFlags: 0

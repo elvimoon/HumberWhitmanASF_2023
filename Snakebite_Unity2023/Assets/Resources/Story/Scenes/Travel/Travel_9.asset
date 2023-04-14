@@ -28,12 +28,22 @@ MonoBehaviour:
   - text: '"Oh no I''m sorry this has happened. It would be no problem at all, I''ll
       even offer you a discount from your help this morning. Hop on my motorbike!"'
     speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"Thank you, thank you!"'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I seat myself behind the taxi driver and seat Aye in front of me, so they're
@@ -42,7 +52,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  background: {fileID: 21300000, guid: 4e017a0ff8296af4fab816cf260dbeff, type: 3}
+  background: {fileID: 21300000, guid: 6a1972ce7b6a707419018ca229fea718, type: 3}
   nextScene: {fileID: 11400000, guid: 3af24ca97b9d1df439906b00834fa6a4, type: 2}
   time: 0
   isTimeVisible: 0

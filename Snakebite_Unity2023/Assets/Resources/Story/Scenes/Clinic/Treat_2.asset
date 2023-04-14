@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Treat_2
   m_EditorClassIdentifier: 
   sentences:
-  - text: "The ASF staff member guides me to a free bed and I gently lay\_ down the
+  - text: "The ASF staff member guides me to a free bed and I gently lay\_down the
       unconscious Aye upon it."
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: 919b67a407ad6b84884f3f5ac902fdd4, type: 3}
     sound: {fileID: 0}
   - text: They assure me everything will be fine as they head over to find a doctor.
       I take the time to observe my surroundings.

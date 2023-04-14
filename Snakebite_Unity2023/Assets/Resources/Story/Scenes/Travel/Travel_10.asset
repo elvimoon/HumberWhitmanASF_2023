@@ -17,8 +17,8 @@ MonoBehaviour:
       to avoid having the tires slip on the muddy road.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
-    music: {fileID: 0}
-    sound: {fileID: 0}
+    music: {fileID: 8300000, guid: ec178517cb3c32f449a7a5984b447833, type: 3}
+    sound: {fileID: 8300000, guid: c7fa93114ab072a438f99df123142358, type: 3}
   - text: '"Do you know how long it will take us to arrive at the clinic?"'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
@@ -27,7 +27,12 @@ MonoBehaviour:
   - text: '"At our current speed, we should arrive there a bit before the sun begins
       setting."'
     speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"Don''t worry Adama, we''ll make it in time, your little Aye will be fine."'
@@ -38,7 +43,12 @@ MonoBehaviour:
   - text: I take a breath to calm myself hearing the taxi driver's words, yes, everything
       will be fine.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 9ddbea88ce8faf846824cd6a85adba6f, type: 3}

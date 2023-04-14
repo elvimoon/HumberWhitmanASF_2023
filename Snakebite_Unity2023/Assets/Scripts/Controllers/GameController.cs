@@ -36,8 +36,8 @@ public class GameController : MonoBehaviour
     private GameScene neutralEndingScene;
     private GameScene goodEndingScene;
 
-    public bool isMenuOpen = false;
-    public bool isSceneLoaded = false;
+    private bool isMenuOpen = false;
+    private bool isSceneLoaded = false;
     private bool isFirstEndSceen = true;
     private bool isNextButtonHidden = true;
     private bool isDonateButtonHidden = true;
@@ -148,7 +148,7 @@ public class GameController : MonoBehaviour
             timeBar.GetComponent<Animator>().SetTrigger("Hide");
             switch (totalTime)
             {
-                case 0 :
+                case 2 :
                     endScenes.Enqueue(badEndingScene as TextScene);
                     break;
                 case 17:
@@ -184,7 +184,7 @@ public class GameController : MonoBehaviour
                 yield return new WaitForSeconds(1f);
             bottomBarController.ClearText(storyScene);
             bottomBarController.Show();
-            yield return new WaitForSeconds(2f);
+            yield return new WaitForSeconds(1f);
             bottomBarController.PlayScene(storyScene);
 
             totalTime += storyScene.time;
@@ -229,7 +229,7 @@ public class GameController : MonoBehaviour
             bottomBarController.ClearText(summaryScene);
             bottomBarController.ResizeText(summaryScene);
             bottomBarController.Show();
-            yield return new WaitForSeconds(2f);
+            yield return new WaitForSeconds(1f);
             bottomBarController.PlayScene(summaryScene as TextScene);
             state = State.IDLE;
         }

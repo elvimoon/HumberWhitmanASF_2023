@@ -17,7 +17,7 @@ MonoBehaviour:
       routines even though it is so early.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: 5098071ba9d4cfe419cea4d879949508, type: 3}
     sound: {fileID: 0}
   - text: Women are carrying buckets of water from the nearby river, and I hear children's
       laughter.

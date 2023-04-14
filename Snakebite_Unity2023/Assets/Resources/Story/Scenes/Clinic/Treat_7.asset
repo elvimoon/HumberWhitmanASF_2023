@@ -16,7 +16,7 @@ MonoBehaviour:
   - text: 1 week later.
     speaker: {fileID: 11400000, guid: 3261d5c9b2fe248459a2c5934c5bc5c0, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: 612a9b20011800547952bda8531b97e0, type: 3}
     sound: {fileID: 0}
   - text: '"Remember to properly thank the staff, Aye."'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
@@ -50,7 +50,23 @@ MonoBehaviour:
   - text: '"It was our pleasure, Adama and little Aye. We hope you two have a pleasant
       day, and a safe trip back home!"'
     speaker: {fileID: 11400000, guid: 0ee4c79b391684241939d49989a4093c, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 0ee4c79b391684241939d49989a4093c, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Aye and I walk out of the clinic and slowly walk to the village exit in
+      search for a taxi hand in hand.
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 0ee4c79b391684241939d49989a4093c, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 11bc2a3e3fad416479f1ca25d62e14a1, type: 3}

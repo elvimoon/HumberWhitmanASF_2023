@@ -41,7 +41,7 @@ MonoBehaviour:
     actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
-  - text: There is a toolbar on the top right that you can click at any point during
+  - text: There is a toolbar on the top left that you can click at any point during
       the game to control volume settings and to open the Codex, a tool offering
       more detailed information about the area and situation.
     speaker: {fileID: 11400000, guid: baae7233fb1e42f47a42787920731bd1, type: 2}

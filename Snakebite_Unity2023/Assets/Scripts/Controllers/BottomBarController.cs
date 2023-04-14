@@ -137,9 +137,19 @@ public class BottomBarController : MonoBehaviour
         int wordIndex = 0;
         while (state != State.COMPLETED)
         {
-            if (text[wordIndex] == '<')
+            if (text[wordIndex] == '<' && text[wordIndex + 1] == 'b')
             {
                 barText.text += "<br>";
+                wordIndex += 3;
+            }
+            else if (text[wordIndex] == '<' && text[wordIndex + 1] == 'i')
+            {
+                barText.text += "<i>";
+                wordIndex += 2;
+            }
+            else if (text[wordIndex] == '<' && text[wordIndex + 1] == '/')
+            {
+                barText.text += "</i>";
                 wordIndex += 3;
             }
             else
