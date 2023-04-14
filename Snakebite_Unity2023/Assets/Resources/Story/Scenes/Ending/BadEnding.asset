@@ -10,12 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1a0b77eaddfb21d42a4a214672b03656, type: 3}
-  m_Name: Result
+  m_Name: BadEnding
   m_EditorClassIdentifier: 
   sentences:
-  - text: It took you X hours and Y minutes to reach the clinic. You survived and
-      will fully recover in 2 days.
+  - text: You have completed the game and chose to leave Aye with the local healer.<br><br>Unfortunately
+      the local healer does not use antivenom, which has resulted in Aye developing
+      necrosis and requiring a leg amputation.<br><br>This will leave Aye as a cripple
+      which will affect them for the rest of their life, but thankfully they survived
+      and will still live to see another day.
     speaker: {fileID: 11400000, guid: 3261d5c9b2fe248459a2c5934c5bc5c0, type: 2}
+    actions: []
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: c74fc6aba57fd824c8524c04a7f24c5d, type: 3}

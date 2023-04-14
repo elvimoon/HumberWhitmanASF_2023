@@ -9,31 +9,39 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
-    static GameController Instance;
+    public static GameController Instance;
 
-    public GameScene currentScene;
-    public GameScene dScene;
-    public GameScene rScene;
-    public BottomBarController bottomBarController;
-    public BackgroundController backgroundController;
-    public ChooseController chooseController;
-    public AudioController audioController;
-    public GameObject resultsSign;
-    public GameObject nextButton;
-    public GameObject donateButton;
-    public GameObject endButton;
-    public Animator transition;
-    public float transitionTime = 1f;
-    public string creditsScene;
-    private Vector2 resolution;
-    public GameObject timeBar;
-    public TextMeshProUGUI timeText;
-    private int totalTime = 0;
-    private bool isFirstEndSceen = true;
+    [SerializeField] private GameScene currentScene;
+    [SerializeField] private BottomBarController bottomBarController;
+    [SerializeField] private BackgroundController backgroundController;
+    [SerializeField] private ChooseController chooseController;
+    [SerializeField] private AudioController audioController;
+    
+    [SerializeField] private GameObject resultsSign;
+    [SerializeField] private GameObject nextButton;
+    [SerializeField] private GameObject donateButton;
+    [SerializeField] private GameObject endButton;
+    [SerializeField] private GameObject timeBar;
+    [SerializeField] private TextMeshProUGUI timeText;
+    
+    [SerializeField] private Animator levelTransition;
+    [SerializeField] private string creditsScene;
+    private const float TRANSITION_TIME = 1f;
+    
     public Queue<TextScene> endScenes = new Queue<TextScene>();
+    
+    private int totalTime = 0;
+    private GameScene dScene;
+    private GameScene badEndingScene;
+    private GameScene neutralEndingScene;
+    private GameScene goodEndingScene;
 
+    public bool isMenuOpen = false;
+    public bool isSceneLoaded = false;
+    private bool isFirstEndSceen = true;
     private bool isNextButtonHidden = true;
     private bool isDonateButtonHidden = true;
+    
     private State state = State.IDLE;
 
     private enum State
@@ -45,81 +53,85 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
-        endScenes.Enqueue(Resources.Load("Story/Scenes/Ending/Summary1") as TextScene);
-        //endScenes.Enqueue(Resources.Load("Story/Scenes/Ending/Summary2") as TextScene);
-        resolution = new Vector2(Screen.width, Screen.height);
+        // endScenes.Enqueue(Resources.Load("Story/Scenes/Ending/Summary1A") as TextScene);
+        // endScenes.Enqueue(Resources.Load("Story/Scenes/Ending/Summary1B") as TextScene);
+        // endScenes.Enqueue(Resources.Load("Story/Scenes/Ending/Summary2A") as TextScene);
+        // endScenes.Enqueue(Resources.Load("Story/Scenes/Ending/Summary2B") as TextScene);
+        dScene = Resources.Load("Story/Scenes/Ending/Donate") as DonateScene;
+        badEndingScene = Resources.Load("Story/Scenes/Ending/BadEnding") as ResultScene;
+        neutralEndingScene = Resources.Load("Story/Scenes/Ending/NeutralEnding") as ResultScene;
+        goodEndingScene = Resources.Load("Story/Scenes/Ending/GoodEnding") as ResultScene;
         StartCoroutine(OnStart());
     }
 
     private IEnumerator OnStart()
     {
-        if (currentScene is StoryScene)
-        {
-            StoryScene storyScene = currentScene as StoryScene;
-            backgroundController.SetImage(storyScene.background);
-            yield return new WaitForSeconds(1.5f);
-            bottomBarController.ClearText(storyScene);
-            bottomBarController.Show();
-            PlayAudio(storyScene.sentences[0]);
-            yield return new WaitForSeconds(1f);
-            bottomBarController.PlayScene(storyScene);
-        }
+        StoryScene storyScene = currentScene as StoryScene;
+        backgroundController.SetImage(storyScene.background);
+        yield return new WaitForSeconds(1.5f);
+        bottomBarController.ClearText(storyScene);
+        bottomBarController.Show();
+        PlayAudio(storyScene.sentences[0]);
+        yield return new WaitForSeconds(1f);
+        bottomBarController.PlayScene(storyScene);
+        isSceneLoaded = true;
     }
 
     //pressing spacebar or left mouse button will display the following sentence
     void Update()
     {
-        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) && !(currentScene is DonateScene) && !(currentScene is ResultScene))
+        // Set auto font size so that it auto adjust if resolution is changed
+        if (bottomBarController.IsCompleted() && currentScene is SummaryScene && !bottomBarController.barText.enableAutoSizing)
         {
-            if(state == State.IDLE && bottomBarController.IsCompleted())
-            {
-                if (bottomBarController.IsLastSentence())
-                {
-                    if (currentScene is SummaryScene || currentScene is ResultScene)
-                        PlayEndScenes();
-                    else if ((currentScene as StoryScene).nextScene)
-                        PlayScene((currentScene as StoryScene).nextScene);
-                    else
-                        PlayEndScenes();
-                }
-
-                else if (currentScene is StoryScene)
-                {
-                    bottomBarController.PlayNextSentence();
-                    PlayAudio((currentScene as StoryScene)
-                        .sentences[bottomBarController.GetSentenceIndex()]);
-                }
-            }
-            else if(state == State.IDLE && !bottomBarController.IsCompleted()) {
-                bottomBarController.PrintEverything(currentScene as TextScene);
-            }
+            bottomBarController.SetAutoFontSize(true);
         }
         // Show button only after Text is completed
         else if (bottomBarController.IsCompleted() && currentScene is ResultScene && isNextButtonHidden)
         {
+            bottomBarController.SetAutoFontSize(true);
             nextButton.GetComponent<Animator>().SetTrigger("Show");
             isNextButtonHidden = false;
         }
         // Show buttons only after Text is completed
         else if (bottomBarController.IsCompleted() && currentScene is DonateScene && isDonateButtonHidden)
         {
+            bottomBarController.SetAutoFontSize(true);
             StartCoroutine(ShowDonateSceneButtons());
             isDonateButtonHidden = false;
         }
-        if (currentScene is DonateScene || currentScene is SummaryScene)
+    }
+
+    public void ProcessInput()
+    {
+        if (currentScene is DonateScene || isMenuOpen || !isSceneLoaded) return;
+        if(state == State.IDLE && bottomBarController.IsCompleted() && currentScene is not ResultScene)
         {
-            if((Screen.width != resolution.x || Screen.height != resolution.y))
+            if (bottomBarController.IsLastSentence())
             {
-                //bottomBarController.Resize(currentScene as TextScene);
-                //resolution = new Vector2(Screen.width, Screen.height);
+                if (currentScene is SummaryScene || currentScene is ResultScene)
+                    PlayEndScenes();
+                else if ((currentScene as StoryScene)?.nextScene)
+                    PlayScene((currentScene as StoryScene)?.nextScene);
+                else
+                    PlayEndScenes();
             }
+
+            else if (currentScene is StoryScene)
+            {
+                bottomBarController.PlayNextSentence();
+                PlayAudio((currentScene as StoryScene)
+                    .sentences[bottomBarController.GetSentenceIndex()]);
+            }
+        }
+        else if(state == State.IDLE && !bottomBarController.IsCompleted()) {
+            bottomBarController.FastForwardText(currentScene as TextScene);
         }
     }
     private IEnumerator ShowDonateSceneButtons()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(3f);
         donateButton.GetComponent<Animator>().SetTrigger("Show");
-        yield return new WaitForSeconds(6f);
+        yield return new WaitForSeconds(8f);
         endButton.GetComponent<Animator>().SetTrigger("Show");
     }
 
@@ -134,7 +146,18 @@ public class GameController : MonoBehaviour
         if (isFirstEndSceen)
         {
             timeBar.GetComponent<Animator>().SetTrigger("Hide");
-            endScenes.Enqueue(rScene as TextScene);
+            switch (totalTime)
+            {
+                case 0 :
+                    endScenes.Enqueue(badEndingScene as TextScene);
+                    break;
+                case 17:
+                    endScenes.Enqueue(neutralEndingScene as TextScene);
+                    break;
+                case 14:
+                    endScenes.Enqueue(goodEndingScene as TextScene);
+                    break;
+            }
             endScenes.Enqueue(dScene as TextScene);
             isFirstEndSceen = false;
         }
@@ -161,7 +184,7 @@ public class GameController : MonoBehaviour
                 yield return new WaitForSeconds(1f);
             bottomBarController.ClearText(storyScene);
             bottomBarController.Show();
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(2f);
             bottomBarController.PlayScene(storyScene);
 
             totalTime += storyScene.time;
@@ -194,7 +217,7 @@ public class GameController : MonoBehaviour
             rectTransform.anchorMax = new Vector2(1.0f, 0.5f);
             rectTransform.offsetMin = new Vector2(260f, 0f);
             rectTransform.offsetMax = new Vector2(-260f, 0f);
-            rectTransform.sizeDelta = new Vector2(rectTransform.sizeDelta.x, 500f);
+            rectTransform.sizeDelta = new Vector2(rectTransform.sizeDelta.x, 800f);
             //rectTransform.anchoredPosition -= new Vector2(0f, 50f);
 
             // Realign and resize the text
@@ -204,9 +227,9 @@ public class GameController : MonoBehaviour
             #endregion
 
             bottomBarController.ClearText(summaryScene);
-            bottomBarController.Resize(summaryScene);
+            bottomBarController.ResizeText(summaryScene);
             bottomBarController.Show();
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(2f);
             bottomBarController.PlayScene(summaryScene as TextScene);
             state = State.IDLE;
         }
@@ -227,8 +250,8 @@ public class GameController : MonoBehaviour
             rectTransform.anchorMax = new Vector2(1.0f, 0.5f);
             rectTransform.offsetMin = new Vector2(260f, 0f);
             rectTransform.offsetMax = new Vector2(-260f, 0f);
-            rectTransform.sizeDelta = new Vector2(rectTransform.sizeDelta.x, 500f);
-            //rectTransform.anchoredPosition -= new Vector2(0f, 0f);
+            rectTransform.sizeDelta = new Vector2(rectTransform.sizeDelta.x, 600f);
+            rectTransform.anchoredPosition -= new Vector2(0f, 50f);
 
             // Realign and resize the text
             bottomBarController.barText.GetComponent<RectTransform>().offsetMin = new Vector2(30f, 20f);
@@ -237,7 +260,7 @@ public class GameController : MonoBehaviour
             #endregion
 
             bottomBarController.ClearText(resultScene);
-            bottomBarController.Resize(resultScene);
+            bottomBarController.ResizeText(resultScene);
             bottomBarController.Show();
             yield return new WaitForSeconds(1f);
             bottomBarController.PlayScene(resultScene as TextScene);
@@ -248,9 +271,8 @@ public class GameController : MonoBehaviour
         {
             DonateScene donateScene = scene as DonateScene;
             PlayAudio(donateScene.sentences[0]);
-            // Enable when we have 2 different background images for summary and donation screens
-            /*backgroundController.SwitchImage(donateScene.background);
-            yield return new WaitForSeconds(1f);*/
+            if (backgroundController.SwitchImage(donateScene.background))
+                yield return new WaitForSeconds(1f);
 
             #region TextBarAlignment
             // Move Text Background to the middle of the screen and Resize it
@@ -262,19 +284,23 @@ public class GameController : MonoBehaviour
             rectTransform.sizeDelta = new Vector2(rectTransform.sizeDelta.x, 260f);
             rectTransform.anchoredPosition += new Vector2(0f, 200f);
             // Realign and resize Text
+            bottomBarController.barText.alignment = TextAlignmentOptions.Center;
             bottomBarController.barText.GetComponent<RectTransform>().offsetMin = new Vector2(30f, 10f);
             bottomBarController.barText.GetComponent<RectTransform>().offsetMax = new Vector2(-30f, -10f);
             bottomBarController.barText.fontSize = 100;
             #endregion
-
-            bottomBarController.ClearText(donateScene);
-            bottomBarController.Resize(donateScene);
-            bottomBarController.Show();
-            yield return new WaitForSeconds(1f);
-            bottomBarController.PlayScene(donateScene as TextScene);
+            
+            bottomBarController.PrintAll(donateScene);
+            bottomBarController.Show(0.33f);
+            yield return new WaitForSeconds(3.0f);
             state = State.IDLE;
         }
 
+    }
+
+    public void SwitchIsMenuOpen()
+    {
+        isMenuOpen = !isMenuOpen;
     }
 
     private void PlayAudio(StoryScene.Sentence sentence)
@@ -294,9 +320,9 @@ public class GameController : MonoBehaviour
 
     IEnumerator LoadLevel(string levelName)
     {
-        transition.SetTrigger("Start");
+        levelTransition.SetTrigger("Start");
 
-        yield return new WaitForSeconds(transitionTime);
+        yield return new WaitForSeconds(TRANSITION_TIME);
 
         SceneManager.LoadScene(levelName, LoadSceneMode.Single);
     }
