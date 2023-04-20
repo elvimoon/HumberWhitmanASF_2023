@@ -16,14 +16,18 @@ public class BottomBarController : MonoBehaviour
     private Animator animator;
     private bool isHidden = true;
 
+    public Dictionary<Speaker, SpriteController> sprites;
+    public GameObject spritesPrefab;
+
     //will also create an enum state in order to understand whether we have displayed everything or not
     private enum State
     {
         WAITING, PLAYING, COMPLETED
     }
 
-    private void Start()
+    private void Awake()
     {
+        sprites = new Dictionary<Speaker, SpriteController>();
         animator = GetComponent<Animator>();
 
     }
@@ -46,11 +50,12 @@ public class BottomBarController : MonoBehaviour
     }
 
     //function to show the bottombar via anim
-    public void Show()
+    public void Show(float speed_ = 1.0f)
     {
         if (isHidden)
         {
             animator.SetTrigger("Show");
+            animator.speed = speed_;
             isHidden = false;
         }
     }
@@ -62,6 +67,37 @@ public class BottomBarController : MonoBehaviour
         //set initial speaker and color
         personNameText.text = scene.sentences[0].speaker.speakerName;
         personNameText.color = scene.sentences[0].speaker.textColor;
+    }
+
+    public void SetAutoFontSize(bool a)
+    {
+        barText.enableAutoSizing = a;
+    }
+
+    public void ResizeText(TextScene scene)
+    {
+        string temp = barText.text;
+        barText.enableAutoSizing = true;
+        barText.text = scene.sentences[0].text;
+        barText.ForceMeshUpdate();
+        float size = barText.fontSize;
+        barText.enableAutoSizing = false;
+        barText.fontSize = size;
+        barText.text = temp;
+    }
+
+    public void PrintAll(TextScene scene)
+    {
+        barText.enableAutoSizing = true;
+        barText.text = scene.sentences[0].text;
+        state = State.COMPLETED;
+    }
+
+    public void FastForwardText(TextScene scene)
+    {
+        StopAllCoroutines();
+        barText.text = scene.sentences[sentenceIndex].text;
+        state = State.COMPLETED;
     }
 
     public void PlayScene(TextScene scene)
@@ -78,7 +114,7 @@ public class BottomBarController : MonoBehaviour
         //set speaker and color
         personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
         personNameText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
-
+        ActSpeakers();
     }
 
     public bool IsCompleted()
@@ -101,8 +137,25 @@ public class BottomBarController : MonoBehaviour
         int wordIndex = 0;
         while (state != State.COMPLETED)
         {
-            barText.text += text[wordIndex];
-            yield return new WaitForSeconds(0.01f);
+            if (text[wordIndex] == '<' && text[wordIndex + 1] == 'b')
+            {
+                barText.text += "<br>";
+                wordIndex += 3;
+            }
+            else if (text[wordIndex] == '<' && text[wordIndex + 1] == 'i')
+            {
+                barText.text += "<i>";
+                wordIndex += 2;
+            }
+            else if (text[wordIndex] == '<' && text[wordIndex + 1] == '/')
+            {
+                barText.text += "</i>";
+                wordIndex += 3;
+            }
+            else
+                barText.text += text[wordIndex];
+            
+            yield return new WaitForSeconds(0.02f);
 
             if (++wordIndex == text.Length)
             {
@@ -111,4 +164,59 @@ public class BottomBarController : MonoBehaviour
             }
         }
     }
+    private void ActSpeakers()
+    {
+        List<StoryScene.Sentence.Action> actions = currentScene.sentences[sentenceIndex].actions;
+        for(int i = 0; i < actions.Count; i++)
+        {
+            ActSpeaker(actions[i]);
+        }
+    }
+
+    private void ActSpeaker(StoryScene.Sentence.Action action)
+    {
+        SpriteController controller = null;
+        switch (action.actionType)
+        {
+            case StoryScene.Sentence.Action.Type.APPEAR:
+                if (!sprites.ContainsKey(action.speaker))
+                {
+                    controller = Instantiate(action.speaker.prefab.gameObject, spritesPrefab.transform)
+                        .GetComponent<SpriteController>();
+                    sprites.Add(action.speaker, controller);
+                }
+                else
+                {
+                    controller = sprites[action.speaker];
+                }
+                controller.Setup(action.speaker.sprites[action.spriteIndex]);
+                controller.Show(action.coords);
+                return;
+            case StoryScene.Sentence.Action.Type.MOVE:
+                if (sprites.ContainsKey(action.speaker))
+                {
+                    controller = sprites[action.speaker];
+                    controller.Move(action.coords, action.moveSpeed);
+                }
+                break;
+            case StoryScene.Sentence.Action.Type.DISAPPEAR:
+                if (sprites.ContainsKey(action.speaker))
+                {
+                    controller = sprites[action.speaker];
+                    controller.Hide();
+                }
+                break;
+            case StoryScene.Sentence.Action.Type.NONE:
+                if (sprites.ContainsKey(action.speaker))
+                {
+                    controller = sprites[action.speaker];
+                }
+                break;
+        }
+        if (controller != null)
+        {
+            controller.SwitchSprite(action.speaker.sprites[action.spriteIndex]);
+        }
+    }
+
 }

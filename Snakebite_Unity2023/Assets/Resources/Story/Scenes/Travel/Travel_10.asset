@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a7bebd0bbf27a4ca54d1561e381236, type: 3}
+  m_Name: Travel_10
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: We head out of the village, taking the main road at a steady speed in order
+      to avoid having the tires slip on the muddy road.
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: ec178517cb3c32f449a7a5984b447833, type: 3}
+    sound: {fileID: 8300000, guid: c7fa93114ab072a438f99df123142358, type: 3}
+  - text: '"Do you know how long it will take us to arrive at the clinic?"'
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"At our current speed, we should arrive there a bit before the sun begins
+      setting."'
+    speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Don''t worry Adama, we''ll make it in time, your little Aye will be fine."'
+    speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I take a breath to calm myself hearing the taxi driver's words, yes, everything
+      will be fine.
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 9ddbea88ce8faf846824cd6a85adba6f, type: 3}
+  nextScene: {fileID: 11400000, guid: df6b1ee54dddbd3458527bb06d6e676e, type: 2}
+  time: 2
+  isTimeVisible: 0

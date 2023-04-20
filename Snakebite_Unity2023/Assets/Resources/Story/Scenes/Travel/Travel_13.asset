@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a7bebd0bbf27a4ca54d1561e381236, type: 3}
+  m_Name: Travel_13
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: '"Where did the snake bite Aye?"'
+    speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: e1e596673de328446b3216fce63c96e5, type: 3}
+  nextScene: {fileID: 11400000, guid: f93ef7537f14c71469e741d88bd935e0, type: 2}
+  time: 0
+  isTimeVisible: 0

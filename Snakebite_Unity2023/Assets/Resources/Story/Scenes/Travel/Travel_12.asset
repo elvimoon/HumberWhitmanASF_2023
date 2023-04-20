@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a7bebd0bbf27a4ca54d1561e381236, type: 3}
+  m_Name: Travel_12
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Sensing the sudden drop in mood, the taxi driver attempts to quickly strike
+      up a conversation to distract us from further negative thoughts.
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"By the way, Adama and little Aye, do you remember any details about the
+      snake?"'
+    speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Why do you ask?"'
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"I''ve heard that providing details to the doctors at the clinic will
+      help them in determining the correct antivenom to use."'
+    speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"It can''t hurt to recall the details, let''s see..."'
+    speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"What type of toxins do you think the snake injected Aye with?"'
+    speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 9ddbea88ce8faf846824cd6a85adba6f, type: 3}
+  nextScene: {fileID: 11400000, guid: 4bb5036e20544704cbe360b6e38a7db7, type: 2}
+  time: 1
+  isTimeVisible: 0

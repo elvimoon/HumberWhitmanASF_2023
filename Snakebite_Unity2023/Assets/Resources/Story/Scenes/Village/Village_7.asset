@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a7bebd0bbf27a4ca54d1561e381236, type: 3}
+  m_Name: Village_7
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: After a few minutes I spot a taxi motorbike stuck deep in the mud, with
+      the driver doing his best to pull out the vehicle. I approach and lend my assistance.
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"<i>I kena</i> sir! Here, let me help you with that."'
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"My thanks, the recent rainstorm has made road conditions a nightmare.
+      I would hate to be stuck here in the open, especially with all the recent sightings
+      of snakes in the area."'
+    speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"No worries at all. What is this about snakes in the area?"'
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"That''s right, there were reports of snakes  close to the village recently.
+      "'
+    speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Watch where you step, snakes can easily blend in with their environment
+      and you don''t want to surprise or scare them."'
+    speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"I''ll keep this in mind, thank you."'
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I make a mental note to pass this warning to the rest of the family and
+      especially to little Aye, who has a tendency to wander and explore with no
+      regards to safety.
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 76cb498220ae2694eb5e81963e6812b0, type: 3}
+  nextScene: {fileID: 11400000, guid: a81340ae48128c9428d6bb8f0112c5b4, type: 2}
+  time: 0
+  isTimeVisible: 0

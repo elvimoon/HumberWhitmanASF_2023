@@ -7,5 +7,4 @@ using UnityEngine;
 public class DonateScene : TextScene
 {
     public Sprite background;
-    public GameScene nextScene;
 }

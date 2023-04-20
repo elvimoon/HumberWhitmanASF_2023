@@ -7,5 +7,4 @@ using UnityEngine;
 public class SummaryScene : TextScene
 {
     public Sprite background;
-    public GameScene nextScene;
 }

@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a7bebd0bbf27a4ca54d1561e381236, type: 3}
+  m_Name: Treat_6
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: I take a deep breath and nod to the ASF members, asking them to save Aye.
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Please do what you can for Aye."'
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Of course Adama. Also, we must inform you first about the cost of the
+      antivenom. It''s fine if you''re unable to make the payment, as long as the
+      money is provided before Aye leaves."'
+    speaker: {fileID: 11400000, guid: 0ee4c79b391684241939d49989a4093c, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 0ee4c79b391684241939d49989a4093c, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I was told by both <i>baba</i> and other villagers about the cost of antivenom
+      and the treatment afterwards. Yes, the cost is expensive, about a month's worth
+      of earnings for my family, but I made the decision earlier to go through with
+      it regardless.
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 0ee4c79b391684241939d49989a4093c, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Thankfully, my family will be able to afford this treatment, albeit just
+      barely. I'll get in contact with <i>baba</i> later today and see what we can
+      do.
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Yes of course, I''m aware of the costs. It will be handled, please save
+      Aye."'
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: The ASF members proceed to work professionally and efficiently, injecting
+      Aye with the antivenom, before treating the wound and the fever. I stay by
+      Aye's side the entire time, grasping their hand tightly.
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: c74fc6aba57fd824c8524c04a7f24c5d, type: 3}
+  nextScene: {fileID: 11400000, guid: a01a171c2cfd0e04394d3587c26d53af, type: 2}
+  time: 0
+  isTimeVisible: 0

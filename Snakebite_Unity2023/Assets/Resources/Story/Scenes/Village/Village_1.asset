@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a7bebd0bbf27a4ca54d1561e381236, type: 3}
+  m_Name: Village_1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: This game illustrates the challenges associated with obtaining treatment
+      for snakebite. It will take an estimated 10-15 minutes to complete.
+    speaker: {fileID: 11400000, guid: baae7233fb1e42f47a42787920731bd1, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 612a9b20011800547952bda8531b97e0, type: 3}
+    sound: {fileID: 0}
+  - text: There will be images of snakes, snakebites and injuries.
+    speaker: {fileID: 11400000, guid: baae7233fb1e42f47a42787920731bd1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: You will be playing as Adama, a member of a poor family of farmers in Guinea,
+      Africa.
+    speaker: {fileID: 11400000, guid: baae7233fb1e42f47a42787920731bd1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Choices you make throughout the game will potentially affect the outcome.
+    speaker: {fileID: 11400000, guid: baae7233fb1e42f47a42787920731bd1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Dialogue lines written inside "quotation marks" means the character is
+      speaking out loud, otherwise it is an internal monologue.
+    speaker: {fileID: 11400000, guid: baae7233fb1e42f47a42787920731bd1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: There is a toolbar on the top left that you can click at any point during
+      the game to control volume settings and to open the Codex, a tool offering
+      more detailed information about the area and situation.
+    speaker: {fileID: 11400000, guid: baae7233fb1e42f47a42787920731bd1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: We hope you enjoy the experience.
+    speaker: {fileID: 11400000, guid: baae7233fb1e42f47a42787920731bd1, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: b8c83f19673b9fc4980c353e61fbfc2f, type: 3}
+  nextScene: {fileID: 11400000, guid: a016bf522e7f07b42b392de789258da9, type: 2}
+  time: 0
+  isTimeVisible: 0

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a7bebd0bbf27a4ca54d1561e381236, type: 3}
+  m_Name: Village_4
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: The vollage is bustling with activity. People are going about their daily
+      routines even though it is so early.
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 5098071ba9d4cfe419cea4d879949508, type: 3}
+    sound: {fileID: 0}
+  - text: Women are carrying buckets of water from the nearby river, and I hear children's
+      laughter.
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"I don''t see my little Aye with those children, I still have some time,
+      perhaps I should go check if Aye is with the neighbors before tending to the
+      farm..."'
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 69ae7afb8ee0f0c4586512080462b9e9, type: 3}
+  nextScene: {fileID: 11400000, guid: ee5af336b86e16f4b806c7d6d8135a24, type: 2}
+  time: 0
+  isTimeVisible: 0

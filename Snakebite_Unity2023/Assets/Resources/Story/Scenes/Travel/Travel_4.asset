@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a7bebd0bbf27a4ca54d1561e381236, type: 3}
+  m_Name: Travel_4
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: I bring Aye inside and lay them down on a bed, staring worriedly as the
+      healer assesses Aye's condition.
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 919b67a407ad6b84884f3f5ac902fdd4, type: 3}
+    sound: {fileID: 0}
+  - text: It has already been about an hour since the bite and while Aye is still
+      conscious, I notice a visible amount of sweating along with a pale face.
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"<i>Nganga</i>, how is Aye, can you do anything?"'
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Tsk, calm yourself Adama. Cuts and broken bones, I can easily help with,
+      but snakebites are different. I can clean and bandage a wound, but I don''t
+      use Antivenom here."'
+    speaker: {fileID: 11400000, guid: 2597bc636f4f9b843b0c91bf8c4522e5, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2597bc636f4f9b843b0c91bf8c4522e5, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Please do what you can then, <i>nganga</i>."'
+    speaker: {fileID: 11400000, guid: 2a922bfb9a9ddb84abf5890a3a80205c, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2597bc636f4f9b843b0c91bf8c4522e5, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 2a922bfb9a9ddb84abf5890a3a80205c, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: My father suddenly enters the hut and instructs the healer to try to treat
+      Aye.
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2a922bfb9a9ddb84abf5890a3a80205c, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Baba! <i>Nganga</i> doesn''t use antivenom, we need to bring Aye to a
+      snakebite clinic instead!"'
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"...listen to me Adama. The clinic is another village travel''s away,
+      and there is no guarantee they can also help Aye."'
+    speaker: {fileID: 11400000, guid: 2a922bfb9a9ddb84abf5890a3a80205c, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2a922bfb9a9ddb84abf5890a3a80205c, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"B-Baba? What are you saying?"'
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2a922bfb9a9ddb84abf5890a3a80205c, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Adama listen to me I''m being realistic. The price of antivenom is very
+      expensive, almost an entire month''s worth of our family''s earnings. This
+      also doesn''t include the cost of rehabilitation afterwards."'
+    speaker: {fileID: 11400000, guid: 2a922bfb9a9ddb84abf5890a3a80205c, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2a922bfb9a9ddb84abf5890a3a80205c, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"We''ll have <i>nganga</i> do what they can for Aye, but we must also
+      think of the rest of our family."'
+    speaker: {fileID: 11400000, guid: 2a922bfb9a9ddb84abf5890a3a80205c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"I...I must think, <i>baba</i>.."'
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 2a922bfb9a9ddb84abf5890a3a80205c, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 0067d1df464873e40bc35395483f0bf8, type: 3}
+  nextScene: {fileID: 11400000, guid: 235c17bd01d0545499de0bbf4e8e43bf, type: 2}
+  time: 0
+  isTimeVisible: 0

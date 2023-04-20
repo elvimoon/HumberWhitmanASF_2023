@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a7bebd0bbf27a4ca54d1561e381236, type: 3}
+  m_Name: Village_5b
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: I can look for Aye later, I must tend to the farm first.
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I pass through the village as I head to the farm, but stop when I catch
+      a glimpse of a close neighbor, who calls out.
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Good morning Adama! <i>I kena! Tana mu xi?</i> Off to the farm I take
+      it? Let me walk with you some ways, I''m headed in the same direction."'
+    speaker: {fileID: 11400000, guid: 8669be0c372de4144a9b863ed6a60f86, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 8669be0c372de4144a9b863ed6a60f86, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Good morning! <i>Tana yo mu xi!</i> I would love your company. I hope
+      everything''s been well, any interesting news?"'
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 8669be0c372de4144a9b863ed6a60f86, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"As a matter of fact, yes! We''ve had another snakebite incident the other
+      week. Two children--a boy and a girl--the family lives just down the hill."'
+    speaker: {fileID: 11400000, guid: 8669be0c372de4144a9b863ed6a60f86, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 8669be0c372de4144a9b863ed6a60f86, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Snakes are common in this region and can bite people who get too close.
+      Even worse, the cost of antivenom and treatment is very expensive, and many
+      families can barely afford it.
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 8669be0c372de4144a9b863ed6a60f86, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"That''s terrible! Did the children survive? How is the family?"'
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"The son made it through alright, the family was able to afford the treatment.
+      However their daughter is still in a dangerous condition right now at the clinic...you
+      know how it is, Adama. "'
+    speaker: {fileID: 11400000, guid: 8669be0c372de4144a9b863ed6a60f86, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 8669be0c372de4144a9b863ed6a60f86, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"With how expensive treatment is, they prioritized their son....it wasn''t
+      an easy decision I''m sure..."'
+    speaker: {fileID: 11400000, guid: 8669be0c372de4144a9b863ed6a60f86, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"...I understand. It''s a tough decision for any parent, and I pray for
+      their family. I''ll part with you here, the farm are in this direction. <i>Won
+      nunmare.</i> I''ll see you later."'
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 8669be0c372de4144a9b863ed6a60f86, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 6a1972ce7b6a707419018ca229fea718, type: 3}
+  nextScene: {fileID: 11400000, guid: f25346745c65dda41bc69aab784d73ba, type: 2}
+  time: 0
+  isTimeVisible: 0
