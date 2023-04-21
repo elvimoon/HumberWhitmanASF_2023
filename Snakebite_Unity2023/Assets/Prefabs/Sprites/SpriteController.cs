@@ -28,6 +28,13 @@ public class SpriteController : MonoBehaviour
     public void Hide()
     {
         animator.SetTrigger("Hide");
+        StartCoroutine(DelayBeforeDeletion());
+    }
+
+    IEnumerator DelayBeforeDeletion()
+    {
+        yield return new WaitForSeconds(1f);
+        //Destroy(gameObject);
     }
 
     public void Move(Vector2 coords, float speed)

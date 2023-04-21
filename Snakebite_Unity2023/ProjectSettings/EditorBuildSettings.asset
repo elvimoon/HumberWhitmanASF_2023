@@ -14,10 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Test Scene.unity
     guid: e8dfb8d90fa2a0d47afdcbdcd0c0fbb3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/DonationScreen.unity
     guid: b9e097492a0bd6b4494183eb1d469224
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SummaryScene.unity
     guid: ad40d5d56fe4a4343b70b61c33243799
   m_configObjects: {}

@@ -53,10 +53,6 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
-        // endScenes.Enqueue(Resources.Load("Story/Scenes/Ending/Summary1A") as TextScene);
-        // endScenes.Enqueue(Resources.Load("Story/Scenes/Ending/Summary1B") as TextScene);
-        // endScenes.Enqueue(Resources.Load("Story/Scenes/Ending/Summary2A") as TextScene);
-        // endScenes.Enqueue(Resources.Load("Story/Scenes/Ending/Summary2B") as TextScene);
         dScene = Resources.Load("Story/Scenes/Ending/Donate") as DonateScene;
         badEndingScene = Resources.Load("Story/Scenes/Ending/BadEnding") as ResultScene;
         neutralEndingScene = Resources.Load("Story/Scenes/Ending/NeutralEnding") as ResultScene;
@@ -174,6 +170,12 @@ public class GameController : MonoBehaviour
         if(currentScene is ResultScene) nextButton.GetComponent<Animator>().SetTrigger("Hide");
         currentScene = scene;
         bottomBarController.Hide();
+        // Hide character sprite
+        if (BottomBarController.Instance.currentSprite)
+        {
+            BottomBarController.Instance.currentSprite.Hide();
+            BottomBarController.Instance.currentSprite = null;
+        }
         yield return new WaitForSeconds(1f);
 
         if (scene is StoryScene)

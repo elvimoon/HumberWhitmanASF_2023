@@ -5,7 +5,7 @@ using TMPro;
 
 public class BottomBarController : MonoBehaviour
 {
-    
+    public static BottomBarController Instance;
     // display text by character, to do this we need to know what scene we are on now and what sentence needs to be displayed
     public TextMeshProUGUI barText;
     public TextMeshProUGUI personNameText;
@@ -18,6 +18,7 @@ public class BottomBarController : MonoBehaviour
 
     public Dictionary<Speaker, SpriteController> sprites;
     public GameObject spritesPrefab;
+    public SpriteController currentSprite;
 
     //will also create an enum state in order to understand whether we have displayed everything or not
     private enum State
@@ -29,7 +30,7 @@ public class BottomBarController : MonoBehaviour
     {
         sprites = new Dictionary<Speaker, SpriteController>();
         animator = GetComponent<Animator>();
-
+        Instance = this;
     }
 
     public int GetSentenceIndex()
@@ -184,6 +185,7 @@ public class BottomBarController : MonoBehaviour
                     controller = Instantiate(action.speaker.prefab.gameObject, spritesPrefab.transform)
                         .GetComponent<SpriteController>();
                     sprites.Add(action.speaker, controller);
+                    currentSprite = controller;
                 }
                 else
                 {
@@ -204,6 +206,7 @@ public class BottomBarController : MonoBehaviour
                 {
                     controller = sprites[action.speaker];
                     controller.Hide();
+                    currentSprite = null;
                 }
                 break;
             case StoryScene.Sentence.Action.Type.NONE:
