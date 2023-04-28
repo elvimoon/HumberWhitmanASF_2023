@@ -51,6 +51,11 @@ MonoBehaviour:
       actionType: 3
       coords: {x: 0, y: 0}
       moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"Not to worry at all, please come with me, we''ll bring you to our doctors
@@ -60,6 +65,11 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: 0ee4c79b391684241939d49989a4093c, type: 2}
       spriteIndex: 0
       actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 3
       coords: {x: 0, y: 0}
       moveSpeed: 0
     music: {fileID: 0}

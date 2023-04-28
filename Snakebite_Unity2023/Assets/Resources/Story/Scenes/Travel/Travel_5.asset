@@ -13,16 +13,11 @@ MonoBehaviour:
   m_Name: Travel_5
   m_EditorClassIdentifier: 
   sentences:
-  - text: I head outside the hut and contemplate to myself.
-    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
-    music: {fileID: 8300000, guid: 5098071ba9d4cfe419cea4d879949508, type: 3}
-    sound: {fileID: 0}
   - text: I was aware of the high treatment cost of antivenom from the stories and
       the neighbors, but I never would have believed this would happen to my family.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: 5098071ba9d4cfe419cea4d879949508, type: 3}
     sound: {fileID: 0}
   - text: On one hand, I can choose to journey to the clinic. Yes, the treatment
       will be expensive, but our family can still afford it, assuming we're willing

@@ -20,19 +20,39 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: '"Remember to properly thank the staff, Aye."'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"Yes yes, thank you for all your help ASF!"'
     speaker: {fileID: 11400000, guid: cfab85cd0782ca949a1254c2e086c717, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: cfab85cd0782ca949a1254c2e086c717, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: It's been a week since I first brought Aye to the ASF clinic. Thanks to
       the hard work of the doctors and staff, Aye was saved and recovered enough
       to be able to be sent home.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: cfab85cd0782ca949a1254c2e086c717, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: Treatment and rehabilitation will continue, but that is something we'll

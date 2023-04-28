@@ -16,7 +16,12 @@ MonoBehaviour:
   - text: I trek down the dirt road. There was a rainstorm just the other day, which
       has turned the roads into mud.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 8300000, guid: ec178517cb3c32f449a7a5984b447833, type: 3}
     sound: {fileID: 0}
   - text: Walking is already hard, I imagine it must be harder for vehicles.

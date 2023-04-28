@@ -44,6 +44,11 @@ MonoBehaviour:
       actionType: 3
       coords: {x: 0, y: 0}
       moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"As a matter of fact, yes! We''ve had another snakebite incident the other
@@ -53,6 +58,11 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: 8669be0c372de4144a9b863ed6a60f86, type: 2}
       spriteIndex: 0
       actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 3
       coords: {x: 0, y: 0}
       moveSpeed: 0
     music: {fileID: 0}
@@ -71,7 +81,12 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: '"That''s terrible! Did the children survive? How is the family?"'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"The son made it through alright, the family was able to afford the treatment.
@@ -82,6 +97,11 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: 8669be0c372de4144a9b863ed6a60f86, type: 2}
       spriteIndex: 0
       actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 3
       coords: {x: 0, y: 0}
       moveSpeed: 0
     music: {fileID: 0}
@@ -100,6 +120,11 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: 8669be0c372de4144a9b863ed6a60f86, type: 2}
       spriteIndex: 0
       actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 1
       coords: {x: 0, y: 0}
       moveSpeed: 0
     music: {fileID: 0}

@@ -21,7 +21,12 @@ MonoBehaviour:
     sound: {fileID: 8300000, guid: c7fa93114ab072a438f99df123142358, type: 3}
   - text: '"Do you know how long it will take us to arrive at the clinic?"'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"At our current speed, we should arrive there a bit before the sun begins
@@ -31,6 +36,11 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
       spriteIndex: 0
       actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 3
       coords: {x: 0, y: 0}
       moveSpeed: 0
     music: {fileID: 0}

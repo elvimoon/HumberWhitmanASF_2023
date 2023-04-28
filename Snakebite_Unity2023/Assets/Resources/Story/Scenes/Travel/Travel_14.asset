@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Travel_14
   m_EditorClassIdentifier: 
   sentences:
-  - text: A few hours later, we hear noise ahead and the motorbike slows down.)
+  - text: A few hours later, we hear noise ahead and the motorbike slows down.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 0}
@@ -25,12 +25,22 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: '"What''s happening? Why are there so many people?"'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: A nearby stranger overheard me and answered.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"It seems a car swerved off the road due to the mud and flipped over.
@@ -53,6 +63,11 @@ MonoBehaviour:
       actionType: 3
       coords: {x: 0, y: 0}
       moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"Is there a detour or another route we can take?"'
@@ -67,6 +82,11 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: 8e49ca89890685a44b8028664c77309e, type: 2}
       spriteIndex: 0
       actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 3
       coords: {x: 0, y: 0}
       moveSpeed: 0
     music: {fileID: 0}

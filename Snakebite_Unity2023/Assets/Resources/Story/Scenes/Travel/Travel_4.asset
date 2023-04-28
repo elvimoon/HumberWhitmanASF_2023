@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Travel_4
   m_EditorClassIdentifier: 
   sentences:
-  - text: I bring Aye inside and lay them down on a bed, staring worriedly as the
-      healer assesses Aye's condition.
+  - text: I lay Aye down on the nearest bed, staring worriedly as the healer assesses
+      Aye's condition.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
     music: {fileID: 8300000, guid: 919b67a407ad6b84884f3f5ac902fdd4, type: 3}
@@ -27,7 +27,12 @@ MonoBehaviour:
     sound: {fileID: 0}
   - text: '"<i>Nganga</i>, how is Aye, can you do anything?"'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"Tsk, calm yourself Adama. Cuts and broken bones, I can easily help with,
@@ -38,6 +43,11 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: 2597bc636f4f9b843b0c91bf8c4522e5, type: 2}
       spriteIndex: 0
       actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 3
       coords: {x: 0, y: 0}
       moveSpeed: 0
     music: {fileID: 0}
@@ -71,7 +81,12 @@ MonoBehaviour:
   - text: '"Baba! <i>Nganga</i> doesn''t use antivenom, we need to bring Aye to a
       snakebite clinic instead!"'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"...listen to me Adama. The clinic is another village travel''s away,
@@ -81,6 +96,11 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: 2a922bfb9a9ddb84abf5890a3a80205c, type: 2}
       spriteIndex: 0
       actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 3
       coords: {x: 0, y: 0}
       moveSpeed: 0
     music: {fileID: 0}
@@ -93,6 +113,11 @@ MonoBehaviour:
       actionType: 3
       coords: {x: 0, y: 0}
       moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"Adama listen to me I''m being realistic. The price of antivenom is very
@@ -103,6 +128,11 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: 2a922bfb9a9ddb84abf5890a3a80205c, type: 2}
       spriteIndex: 0
       actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 3
       coords: {x: 0, y: 0}
       moveSpeed: 0
     music: {fileID: 0}
@@ -119,6 +149,26 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: 2a922bfb9a9ddb84abf5890a3a80205c, type: 2}
       spriteIndex: 0
       actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Needing some space to think, I headed outside.
+    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 1
       coords: {x: 0, y: 0}
       moveSpeed: 0
     music: {fileID: 0}

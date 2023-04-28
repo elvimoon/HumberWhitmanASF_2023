@@ -28,19 +28,39 @@ MonoBehaviour:
   - text: '"There you are, Aye! I hope you weren''t troubling our neighbor. Sir!
       <i>Tana mu xi? </i> How''s your hand been treating you?" '
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"Of course not, I haven''t caused any trouble at all. Isn''t that right
       Sir?"'
     speaker: {fileID: 11400000, guid: cfab85cd0782ca949a1254c2e086c717, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: cfab85cd0782ca949a1254c2e086c717, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"Haha that''s right, little Aye has just been checking to see how I''m
       doing. A good morning to you too, Adama. <i>Tana yo mu xi."</i>'
     speaker: {fileID: 11400000, guid: 8669be0c372de4144a9b863ed6a60f86, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: cfab85cd0782ca949a1254c2e086c717, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: I've known our neighbor all my life. He suffered a snakebite injury on
@@ -66,13 +86,23 @@ MonoBehaviour:
   - text: '"That''s good to hear, Sir. Everyone was worried and shocked when they
       learned of your situation."'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"Yes, well, that''s life I suppose. Snakes bite people, and people die.
       I suppose I can count myself lucky for still being alive."'
     speaker: {fileID: 11400000, guid: 8669be0c372de4144a9b863ed6a60f86, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"Just a word of advice, always be cautious when you''re out and about,
@@ -85,7 +115,12 @@ MonoBehaviour:
   - text: '"Thank you, Sir. I''ll remember your advice. I must be heading off to
       the farm now, have a good day. Aye, be a good child, I''ll see you later."'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   background: {fileID: 21300000, guid: 84271febdc635a34a85b077fd3e3ddb6, type: 3}

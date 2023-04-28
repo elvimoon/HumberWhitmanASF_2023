@@ -13,26 +13,31 @@ MonoBehaviour:
   m_Name: Travel_2
   m_EditorClassIdentifier: 
   sentences:
-  - text: I carry Aye and quickly rush home to the village.
-    speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
-    music: {fileID: 8300000, guid: 5098071ba9d4cfe419cea4d879949508, type: 3}
-    sound: {fileID: 0}
   - text: Upon seeing the familiar houses and the sea of villagers, I quickly shout
       for help.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
     actions: []
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: 5098071ba9d4cfe419cea4d879949508, type: 3}
     sound: {fileID: 0}
   - text: '"Someone, please help! We need help!"'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: The nearby villagers run towards us, who's questioning glances turns to
       concern seeing my panicked  and Aye's pained expressions.
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"Adama?! What happened?! Oh no, little Aye!"'
@@ -54,7 +59,12 @@ MonoBehaviour:
   - text: '"<i>Baba</i>! Little Aye''s been bit by a snake, we need to bring them
       for treatment!"'
     speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
     music: {fileID: 0}
     sound: {fileID: 0}
   - text: '"...tsk. Quickly now, go to the healer down the hill, I''ll inform the
@@ -64,6 +74,11 @@ MonoBehaviour:
     - speaker: {fileID: 11400000, guid: 2a922bfb9a9ddb84abf5890a3a80205c, type: 2}
       spriteIndex: 0
       actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 911c0d51321b7ba4b99f03f6a3d61a25, type: 2}
+      spriteIndex: 0
+      actionType: 3
       coords: {x: 0, y: 0}
       moveSpeed: 0
     music: {fileID: 0}
