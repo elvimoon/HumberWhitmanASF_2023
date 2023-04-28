@@ -15,5 +15,5 @@ MonoBehaviour:
   speakerName: Adama
   textColor: {r: 0.46564615, g: 0.9056604, b: 0.52950424, a: 1}
   sprites:
-  - {fileID: 21300000, guid: fbfd30095e73b5b4380198737aa66485, type: 3}
-  prefab: {fileID: -2532526778574787626, guid: 3680fa8e414ab6947aad1d077c014d3d, type: 3}
+  - {fileID: 21300000, guid: 2697a0d8b615d654c996d4fb6e4fc1db, type: 3}
+  prefab: {fileID: -2532526778574787626, guid: bb9ff99725ea57c43975461facc24dca, type: 3}
