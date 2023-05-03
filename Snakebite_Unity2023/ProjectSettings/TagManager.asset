@@ -6,6 +6,24 @@ TagManager:
   tags:
   - Menu Category
   - Button Category
+  - Entry
+  - EntryTitle
+  - EntryText
+  - Codex Menu
+  - EntryImage
+  - Entry1
+  - Entry2
+  - Entry3
+  - Entry4
+  - EntryImage2
+  - EntryImage3
+  - EntryImage4
+  - EntryText2
+  - EntryText3
+  - EntryText4
+  - EntryTitle2
+  - EntryTitle3
+  - EntryTitle4
   layers:
   - Default
   - TransparentFX

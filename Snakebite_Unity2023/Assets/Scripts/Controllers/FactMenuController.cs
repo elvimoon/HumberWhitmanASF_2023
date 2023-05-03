@@ -5,18 +5,41 @@ using UnityEngine.UI;
 using TMPro;
 public class FactMenuController : MonoBehaviour
 {
+    public TextMeshProUGUI newEntryText;
+
     public bool menuOn;
     public bool debug = false;
 
     GameObject menuBody;
-    public GameObject[] menuCategories;
-    public GameObject[] buttonCategories;
+    [SerializeField]
+    private GameObject[] menuCategories;
+    [SerializeField]
+    private GameObject[] buttonCategories;
     public ColorBlock selectedColor;
-    int currentCategory;
+    [SerializeField]
+    private int currentCategory;
+
+    [SerializeField]
+    private string[] menuCategoriesText;
+    [SerializeField]
+    private string[] menuCategoriesTitle;
+    [SerializeField]
+    private Sprite[] menuCategoriesImage;
+
+    [SerializeField]
+    private GameObject entryTitleText;
+    [SerializeField]
+    private GameObject entryText;
+    public GameObject entryImage;
+
 
     // Start is called before the first frame update
     void Start()
     {
+        entryTitleText = GameObject.FindGameObjectWithTag("EntryTitle");
+        entryText = GameObject.FindGameObjectWithTag("EntryText");
+        entryImage = GameObject.FindGameObjectWithTag("EntryImage");
+
         menuBody = this.transform.GetChild(0).gameObject;
         menuOn = false;
         menuCategories = GameObject.FindGameObjectsWithTag("Menu Category");
@@ -40,16 +63,33 @@ public class FactMenuController : MonoBehaviour
 
         if (menuOn)
         {
-            gameObject.SetActive(true);
             menuBody.SetActive(true);
         }
         else
         {
-            gameObject.SetActive(false);
             menuBody.SetActive(false);
         }
 
-
+        if (Input.GetKeyDown("z") && (debug))
+        {
+            menuCategories[0].transform.GetChild(0).gameObject.GetComponent<EntryController>().UnlockEntry(Random.Range(0, menuCategories[0].transform.GetChild(0).gameObject.GetComponent<EntryController>().entries.Length));
+            print("Debug - " + this.gameObject.GetComponent<MonoBehaviour>() + ": Entry From Catgory 1 Unlocked");
+        }
+        if (Input.GetKeyDown("x") && (debug))
+        {
+            menuCategories[1].transform.GetChild(0).gameObject.GetComponent<EntryController>().UnlockEntry(Random.Range(0, menuCategories[1].transform.GetChild(0).gameObject.GetComponent<EntryController>().entries.Length));
+            print("Debug - " + this.gameObject.GetComponent<MonoBehaviour>() + ": Entry From Catgory 2 Unlocked");
+        }
+        if (Input.GetKeyDown("c") && (debug))
+        {
+            menuCategories[2].transform.GetChild(0).gameObject.GetComponent<EntryController>().UnlockEntry(Random.Range(0, menuCategories[2].transform.GetChild(0).gameObject.GetComponent<EntryController>().entries.Length));
+            print("Debug - " + this.gameObject.GetComponent<MonoBehaviour>() + ": Entry From Catgory 3 Unlocked");
+        }
+        if (Input.GetKeyDown("v") && (debug))
+        {
+            menuCategories[3].transform.GetChild(0).gameObject.GetComponent<EntryController>().UnlockEntry(Random.Range(0, menuCategories[3].transform.GetChild(0).gameObject.GetComponent<EntryController>().entries.Length));
+            print("Debug - " + this.gameObject.GetComponent<MonoBehaviour>() + ": Entry From Catgory 4 Unlocked");
+        }
     }
 
     void ShowCodex()
@@ -61,8 +101,6 @@ public class FactMenuController : MonoBehaviour
                 print("Debug - " + this.gameObject.GetComponent<MonoBehaviour>() + ": Fact menu closed");
             }
             menuOn = false;
-            gameObject.SetActive(false);
-            menuBody.SetActive(false);
         }
         else
         {
@@ -73,8 +111,7 @@ public class FactMenuController : MonoBehaviour
             menuOn = true;
             ShowCategory(currentCategory);
             buttonCategories[currentCategory].GetComponent<Button>().Select();
-            gameObject.SetActive(true);
-            menuBody.SetActive(true);
+            newEntryText.text = "";
         }
     }
 
@@ -92,6 +129,10 @@ public class FactMenuController : MonoBehaviour
 
         menuCategories[index].SetActive(true);
         currentCategory = index;
+
+        entryTitleText.GetComponent<TextMeshProUGUI>().text = menuCategoriesTitle[index];
+        entryText.GetComponent<TextMeshProUGUI>().text = menuCategoriesText[index];
+        entryImage.GetComponent<Image>().sprite = menuCategoriesImage[index];
 
         if (debug)
         {
