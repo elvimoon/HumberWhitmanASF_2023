@@ -92,3 +92,8 @@ MonoBehaviour:
   nextScene: {fileID: 11400000, guid: a01a171c2cfd0e04394d3587c26d53af, type: 2}
   time: 0
   isTimeVisible: 0
+  unlocks:
+  - category: 0
+    entry: 3
+  - category: 0
+    entry: 4
