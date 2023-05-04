@@ -222,4 +222,9 @@ public class BottomBarController : MonoBehaviour
         }
     }
 
+    public TextScene GetCurrentTextScene()
+    {
+        return currentScene;
+    }
+
 }

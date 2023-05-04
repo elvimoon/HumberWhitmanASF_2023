@@ -9,15 +9,15 @@ public class FactMenuController : MonoBehaviour
 
     public bool menuOn;
     public bool debug = false;
+    public bool cheats = false;
 
     GameObject menuBody;
-    [SerializeField]
-    private GameObject[] menuCategories;
+    public GameObject[] menuCategories;
     [SerializeField]
     private GameObject[] buttonCategories;
     public ColorBlock selectedColor;
     [SerializeField]
-    private int currentCategory;
+    public int currentCategory;
 
     [SerializeField]
     private string[] menuCategoriesText;
@@ -31,7 +31,6 @@ public class FactMenuController : MonoBehaviour
     [SerializeField]
     private GameObject entryText;
     public GameObject entryImage;
-
 
     // Start is called before the first frame update
     void Start()
@@ -56,7 +55,7 @@ public class FactMenuController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetMouseButtonDown(1))
+        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetMouseButtonDown(2))
         {
             ShowCodex();
         }
@@ -70,26 +69,62 @@ public class FactMenuController : MonoBehaviour
             menuBody.SetActive(false);
         }
 
-        if (Input.GetKeyDown("z") && (debug))
+        if (Input.GetKeyDown("z") && (debug) && (cheats))
         {
             menuCategories[0].transform.GetChild(0).gameObject.GetComponent<EntryController>().UnlockEntry(Random.Range(0, menuCategories[0].transform.GetChild(0).gameObject.GetComponent<EntryController>().entries.Length));
             print("Debug - " + this.gameObject.GetComponent<MonoBehaviour>() + ": Entry From Catgory 1 Unlocked");
         }
-        if (Input.GetKeyDown("x") && (debug))
+        if (Input.GetKeyDown("x") && (debug) && (cheats))
         {
             menuCategories[1].transform.GetChild(0).gameObject.GetComponent<EntryController>().UnlockEntry(Random.Range(0, menuCategories[1].transform.GetChild(0).gameObject.GetComponent<EntryController>().entries.Length));
             print("Debug - " + this.gameObject.GetComponent<MonoBehaviour>() + ": Entry From Catgory 2 Unlocked");
         }
-        if (Input.GetKeyDown("c") && (debug))
+        if (Input.GetKeyDown("c") && (debug) && (cheats))
         {
             menuCategories[2].transform.GetChild(0).gameObject.GetComponent<EntryController>().UnlockEntry(Random.Range(0, menuCategories[2].transform.GetChild(0).gameObject.GetComponent<EntryController>().entries.Length));
             print("Debug - " + this.gameObject.GetComponent<MonoBehaviour>() + ": Entry From Catgory 3 Unlocked");
         }
-        if (Input.GetKeyDown("v") && (debug))
+        if (Input.GetKeyDown("v") && (debug) && (cheats))
         {
             menuCategories[3].transform.GetChild(0).gameObject.GetComponent<EntryController>().UnlockEntry(Random.Range(0, menuCategories[3].transform.GetChild(0).gameObject.GetComponent<EntryController>().entries.Length));
             print("Debug - " + this.gameObject.GetComponent<MonoBehaviour>() + ": Entry From Catgory 4 Unlocked");
         }
+
+        if (Input.GetKey(KeyCode.UpArrow) && (cheats))
+        {
+            if ((Input.GetKey("a") && Input.GetKey("s") && Input.GetKey("f")) && (cheats))
+            {
+                for (int i = 0; i < menuCategories[0].transform.GetChild(0).gameObject.GetComponent<EntryController>().entries.Length; i++)
+                {
+                    menuCategories[0].transform.GetChild(0).gameObject.GetComponent<EntryController>().UnlockEntry(i);
+                }
+                for (int i = 0; i < menuCategories[1].transform.GetChild(0).gameObject.GetComponent<EntryController>().entries.Length; i++)
+                {
+                    menuCategories[1].transform.GetChild(0).gameObject.GetComponent<EntryController>().UnlockEntry(i);
+                }
+                for (int i = 0; i < menuCategories[2].transform.GetChild(0).gameObject.GetComponent<EntryController>().entries.Length; i++)
+                {
+                    menuCategories[2].transform.GetChild(0).gameObject.GetComponent<EntryController>().UnlockEntry(i);
+                }
+                for (int i = 0; i < menuCategories[3].transform.GetChild(0).gameObject.GetComponent<EntryController>().entries.Length; i++)
+                {
+                    menuCategories[3].transform.GetChild(0).gameObject.GetComponent<EntryController>().UnlockEntry(i);
+                }
+
+                if (debug)
+                {
+                    print("Debug - " + this.gameObject.GetComponent<MonoBehaviour>() + ": All Entries Have Been Unlocked");
+                }
+            }
+        }
+
+
+        //Closes the menu if players clicks outside of it
+        if (Input.GetMouseButton(0) && menuOn && !this.GetComponent<RectTransform>().rect.Contains(this.GetComponent<RectTransform>().InverseTransformPoint(Input.mousePosition)))
+        {
+            ShowCodex();
+        }
+
     }
 
     void ShowCodex()
@@ -140,4 +175,12 @@ public class FactMenuController : MonoBehaviour
         }
     }
 
+    public void EntryUnlock(int catagory, int entry)
+    {
+        menuCategories[catagory].transform.GetChild(0).gameObject.GetComponent<EntryController>().UnlockEntry(entry);
+        if (debug)
+        {
+            print("Debug - " + this.gameObject.GetComponent<MonoBehaviour>() + ": Entry(" + entry + ") From Category(" + catagory + ") Unlocked");
+        }
+    }
 }

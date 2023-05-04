@@ -59,3 +59,4 @@ MonoBehaviour:
   nextScene: {fileID: 0}
   time: 0
   isTimeVisible: 0
+  Unlocks: []

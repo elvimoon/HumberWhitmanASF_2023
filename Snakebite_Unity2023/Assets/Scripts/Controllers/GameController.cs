@@ -44,6 +44,11 @@ public class GameController : MonoBehaviour
     
     private State state = State.IDLE;
 
+    [SerializeField] private GameObject codexMenu;
+    StoryScene curStoryScene;
+    bool runUnlocks = true;
+    public bool debug = false;
+
     private enum State
     {
         IDLE, ANIMATE, CHOOSE
@@ -57,6 +62,7 @@ public class GameController : MonoBehaviour
         badEndingScene = Resources.Load("Story/Scenes/Ending/BadEnding") as ResultScene;
         neutralEndingScene = Resources.Load("Story/Scenes/Ending/NeutralEnding") as ResultScene;
         goodEndingScene = Resources.Load("Story/Scenes/Ending/GoodEnding") as ResultScene;
+        codexMenu = GameObject.FindGameObjectWithTag("Codex Menu");
         StartCoroutine(OnStart());
     }
 
@@ -71,11 +77,23 @@ public class GameController : MonoBehaviour
         yield return new WaitForSeconds(1f);
         bottomBarController.PlayScene(storyScene);
         isSceneLoaded = true;
+
+        curStoryScene = currentScene as StoryScene;
+        runUnlocks = true;
     }
 
     //pressing spacebar or left mouse button will display the following sentence
     void Update()
     {
+        if (codexMenu.GetComponent<FactMenuController>().menuOn)
+        {
+            isMenuOpen = true;
+        }
+        else
+        {
+            isMenuOpen = false;
+        }
+
         // Set auto font size so that it auto adjust if resolution is changed
         if (bottomBarController.IsCompleted() && currentScene is SummaryScene && !bottomBarController.barText.enableAutoSizing)
         {
@@ -95,6 +113,22 @@ public class GameController : MonoBehaviour
             StartCoroutine(ShowDonateSceneButtons());
             isDonateButtonHidden = false;
         }
+
+        if ((runUnlocks == true) && (curStoryScene != null))
+        {
+            if (debug)
+            {
+                print("Debug - " + this.gameObject.GetComponent<MonoBehaviour>() + ": Current Scene: " + curStoryScene.ToString());
+            }
+
+            List<StoryScene.UnlockIndex> entries = curStoryScene.unlocks;
+            for (int i = 0; i < entries.Count; i++)
+            {
+                codexMenu.GetComponent<FactMenuController>().EntryUnlock(entries[i].category, entries[i].entry);
+            }
+            runUnlocks = false;
+        }
+
     }
 
     public void ProcessInput()
@@ -118,6 +152,7 @@ public class GameController : MonoBehaviour
                 PlayAudio((currentScene as StoryScene)
                     .sentences[bottomBarController.GetSentenceIndex()]);
             }
+
         }
         else if(state == State.IDLE && !bottomBarController.IsCompleted()) {
             bottomBarController.FastForwardText(currentScene as TextScene);
@@ -197,6 +232,9 @@ public class GameController : MonoBehaviour
             }
 
             state = State.IDLE;
+
+            curStoryScene = currentScene as StoryScene;
+            runUnlocks = true;
         }
 
         else if (scene is ChooseScene)

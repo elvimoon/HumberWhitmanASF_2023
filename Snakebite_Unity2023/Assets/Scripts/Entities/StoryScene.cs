@@ -12,6 +12,15 @@ public class StoryScene : TextScene
     public GameScene nextScene;
     public int time = 0;
     public bool isTimeVisible = false;
+
+    public List<UnlockIndex> unlocks;
+
+    [System.Serializable]
+    public struct UnlockIndex
+    {
+        public int category;
+        public int entry;
+    }
 }
 
 public class TextScene : GameScene
